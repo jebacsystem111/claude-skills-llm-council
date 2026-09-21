@@ -281,3 +281,88 @@ Po weryfikacji z rozdziału 1 zostały cztery firmy z potwierdzoną luką. Ruszy
 | Odrzuconych z dowodem | **26** |
 | Firm przeanalizowanych łącznie | **~105** |
 | Leadów z potwierdzoną luką lokalną (✅) | **8** |
+
+---
+
+# §11. NOWA FALA 2 (FALA 4) — 21.09.2026
+
+Czwarta runda researchu. Sprawdzałem przede wszystkim dwa obszary, które w poprzednich rundach wypadły najlepiej: **sieci partnerskie / grupy zakupowe** oraz **duże sieci własne zatrzymane na lokalizatorze**. Wszedłem też w segmenty nieruszone do tej pory: sklepy spożywcze sieciowe, sklepy budowlane, apteki sieciowe, drogerie zoologiczne, kluby fitness, pralnie i sieci warsztatowe.
+
+Metoda bez zmian: najpierw szukam sieci (20+ lokalizacji), potem **sprawdzam konkretny URL i strukturę strony** — czy lokalizacje mają własne podstrony. Dopiero gdy ich nie mają, firma trafia na listę.
+
+## §11.1 Nowe leady (60–64)
+
+### 60. Grupa PSB / PSB Mrówka — A+
+- **Skala:** 416 sklepów PSB Mrówka + 271 składów PSB + 81 placówek PSB Profi (= ok. 768 punktów), obecność w 85% powiatów.
+- **Strony lokalne:** ❌ BRAK. Strona grupapsb.com.pl/gdzie-kupisz to mapa/lista z adresem i telefonem — bez osobnych stron sklepów. Listy „411 lokalizacji" krążą wyłącznie po serwisach trzecich (poradnik-remontowy24).
+- **Kąt sprzedażowy:** „416 Mrówek + 271 składów, każda z osobnym adresem i telefonem, ale zero stron lokalnych — wpisanie »mrówka Lubartów godziny otwarcia« trafia w katalogi zewnętrzne, nie w Waszą domenę. Jeden szablon + 768 wdrożeń lokalnych w modelu hurtowym."
+- **Kto decyduje:** centrala Grupa PSB Handel S.A. (dział marketingu/rozwoju sieci); brak publicznego e-maila — kontakt przez formularz na grupapsb.com.pl.
+- **Uwaga:** marka prowadzona przez niezależnych właścicieli sklepów (grupa zakupowa) → sprzedaż przez program stron dla członków sieci.
+
+### 61. Chata Polska (Grupa MAR-OL) — A+
+- **Skala:** 413 sklepów (29 własnych, reszta franczyza), 7 województw, ok. 20 otwarć rocznie; 3 mln klientów miesięcznie. Inne źródła podają 300–410 sklepów (różne daty) — liczba do potwierdzenia przy kontakcie.
+- **Strony lokalne:** ❌ BRAK. chatapolska.pl/sklepy/wielkopolskie,18.html to mapa + wyszukiwarka „ulica/miasto". Pod linkiem „znajdź sklep" na stronie głównej kryje się… formularz „szukamy lokalizacji" dla wynajmujących. Osobnych stron sklepów nie ma w ogóle.
+- **Kąt sprzedażowy:** „413 sklepów w 7 województwach, a na stronie nie ma ani jednej podstrony sklepu — tylko mapa i formularz dla właścicieli lokali. Klient wpisujący »chata polska Konin« ląduje na gazetkach zewnętrznych. Proponuję program: 413 landingów lokalnych + strony dla nowych otwarć w abonamencie."
+- **Kontakt:** centrala Poznań, ul. Zwierzchowskiego 25, tel. +48 61 65 00 360; brak publicznego e-maila (formularz kontaktowy).
+- **Rozwój:** poszukują lokali min. 250 m² — stały napływ nowych placówek.
+
+### 62. Ale Animale — A
+- **Skala:** 41 sklepów (Małopolska, Podkarpacie, Śląsk, Świętokrzyskie; Kraków, Tarnów, Rzeszów, Nowy Sącz, Sosnowiec, Częstochowa i in.).
+- **Strony lokalne:** ❌ BRAK. aleanimale.pl/nasze-sklepy/ = lokalizator z 41 kartami (adres, telefon, wskazówki dojazdu), bez osobnych podstron sklepów.
+- **Kąt sprzedażowy:** „41 sklepów, lokalizator zamiast stron: klient z Myślenic czy Olkusza nie znajdzie Waszej oferty w Google, tylko wizytówkę w katalogu. 41 landingów »sklep zoologiczny + miasto«, spójny szablon, sprzedaż w 1–2 tygodnie."
+- **Uwaga:** sieć nie prowadzi sprzedaży żywych zwierząt — komunikacja opiera się na zaufaniu i doradztwie, co lokalne strony wzmacniają (opinie z miasta).
+
+### 63. Moby Dick / Moby Dick Group — A
+- **Skala:** ok. 101 sklepów partnerskich (grupa niezależnych, specjalistycznych sklepów zoologicznych pod marką Moby Dick), właściciel: Moby Dick Group (dystrybutor; program partnerski).
+- **Strony lokalne:** ❌ BRAK. mobydick.com.pl pokazuje wyłącznie marki i formularz kontaktowy; lista sklepów żyje na stronach trzecich (np. vitapol.pl/sklepy-stacjonarne). Sam sklep bydgoski ma osobny serwis, ale to wyjątek.
+- **Kąt sprzedażowy:** „101 niezależnych sklepów pod jedną marką i zero wyszukiwarki sklepów na stronie grupy — klient nie wie, gdzie Was kupić. Propozycja: wyszukiwarka + gotowe strony dla partnerów w modelu programu (Wy płacicie za centralny szablon, partnerzy dostają swoje landingi)."
+- **Kontakt:** formularz na mobydick.com.pl; brak publicznego e-maila centrali.
+
+### 64. Family Pets — A (DO WERYFIKACJI)
+- **Skala:** „ponad 40 lokalizacji w całej Polsce i dynamiczny rozwój" (deklaracja własna z familypets.pl/franczyza/), model franczyzowy, sklepy z żywymi zwierzętami.
+- **Strony lokalne:** ⚠️ NIE POTWIERDZONO — czy lokalizacje mają osobne strony. Do sprawdzenia przed kontaktem (oznaczenie „DO WERYFIKACJI", brak danych = nie zakładam).
+- **Kąt sprzedażowy:** „40+ sklepów i franczyza w fazie rozwoju: nowi franczyzobiorcy potrzebują strony od pierwszego dnia. Pakiet: lokalne landingi dla istniejących + wdrożenia dla nowych otwarć."
+
+## §11.2 Nowe odrzucenia z dowodem (R27–R37)
+
+| ID | Firma | Skala | Powód odrzucenia (dowód) |
+|---|---|---|---|
+| R27 | Xtreme Fitness Gyms | 184 kluby + 16 sal Xtreme KiDS | Podstrony per klub: xtremefitness.pl/kluby/XF_Krakow_Zyczkowskiego (+ /grafik, /regulamin) — adres, godziny, kontakt, grafik. Sieć ma rozwiązanie. |
+| R28 | 36 MINUT | 60+ studiów | Osobne strony klubów: 36minut.pl/project/36-minut-aleksandrow/ (lista /kluby/ z linkami do każdego). |
+| R29 | Cukiernia Sowa | ~170 placówek | Wizytówki per lokalizacja: cukierniasowa.pl/cukiernie/bydgoszcz-ul-mostowa-5 (adres, telefon, godziny). |
+| R30 | Piekarnia-Cukiernia Putka | ok. 140–260 lokali (Warszawa, Łódź) | Strony per lokal: putka.pl/piekarnia/slaska-6/ + „Zobacz inne piekarnie w pobliżu". |
+| R31 | MaXserwis (Auto Partner SA) | ok. 570 warsztatów | Każdy warsztat ma stronę: maxserwis.com.pl/warsztat/aldito-aliaksandr-chuneyeu-targowek/ („Strona warsztatu"). |
+| R32 | Bosch Car Service | 400+ warsztatów w PL | Każdy warsztat ma własną subdomenę: polanowski.bosch-service.pl + podstrony miast na boschcarservice.com/pl. |
+| R33 | Eurorepar Car Service | ~100 warsztatów | Strony warsztatów: eurorepar.pl/warsztat-auto-watkem-rzeszow-8910.html. |
+| R34 | Gemini (apteki) | ~350 aptek franczyzowych | Podstrony per miasto: gemini.pl/apteki/mazowieckie/warszawa — częściowe pokrycie lokalne (zastrzeżenie: brak stron per apteka). |
+| R35 | AnimalZoone | 18 sklepów + e-commerce | Własne „strony lokalne" dla 36 miast: animalzoone.pl/strony-lokalne/sklep-zoologiczny-opole-169 — firma już sprzedaje lokalne landingi (dla sklepu online). |
+| R36 | Kakadu Zoo | 84 sklepy stacjonarne | Wpisy per sklep w blogu: kakadu.pl/blog/sklep-zoologiczny-kakadu-w-... (adres, godziny, kontakt). |
+| R37 | Aquael Zoo | ~117–119 salonów | Salony w galeriach i parkach handlowych (CH Auchan, CH Ferio, CH Janki, S1, Vendo Park…) — ta sama przesłanka co przy Olimp (R17): brak lokalnej intencji poza centrum handlowym. Do przywrócenia, jeśli pojawią się lokalizacje uliczne. |
+
+## §11.3 Zatrzymane do sprawdzenia (nie leady, nie odrzucenia)
+
+- **Speed Queen (pralnie samoobsługowe)** — ok. 100 pralni w PL, franczyza; warszawski operator ma własne podstrony pralni (pralniaspeedqueen.waw.pl/praga-poludnie/), ale status stron u franczyzobiorców w innych miastach — niepotwierdzony.
+- **EBS Pralnie** (dawniej 5asec) — ok. 70 pralni w PL, 23 franczyzowe; na pralniaebs.pl lista z przyciskiem „Zobacz szczegóły" — nie potwierdziłem, czy to osobne strony, czy okno w lokalizatorze (strona zwróciła tylko baner cookies).
+
+## §11.4 Wniosek strategiczny po fali 4 — trzecia realna nisza
+
+Doszła trzecia nisza, obok sieci partnerskich i firm zatrzymanych na lokalizatorze:
+
+**Duże sieci handlowe i usługowe z lokalizatorem, ale bez stron lokalizacji** — grupy zakupowe i franczyzy liczące 300–800 placówek, gdzie nikt nigdy nie zrobił porządku w stronach lokalnych, bo „to nie nasza działka, to franczyzobiorcy": **Grupa PSB (768 placówek), Chata Polska (413), Ale Animale (41), Moby Dick (101)**. W tej grupie jest jeszcze jedna zaleta: **decyzja zapada w centrali**, a wdrożenie można rozliczyć hurtowo.
+
+Czego ta fala nauczyła o rynku aptek, fitnessu i zoologicznych:
+- **Apteki:** sieci rozliczają się z lokalnej obecności na poziomie miast (Gemini), a pojedyncze apteki w ogóle nie chcą stron — segment odpada.
+- **Fitness:** mocno konkurencyjny SEO lokalne, duzi gracze (Xtreme, Benefit Systems ze Zdrofit/FitFabric) mają strony klubów — wejście możliwe tylko do małych sieci bez stron.
+- **Sieci warsztatowe (MaXserwis, Bosch, Eurorepar):** prawie wszystkie dają warsztatom gotowe strony lub subdomeny — ten temat jest zamknięty; jedyne otwarte okno to same warsztaty (nie sieci) albo całkiem nowe programy partnerskie.
+- **Zoologiczne i sklepy budowlane:** najlepszy stosunek skali do luki — dużo lokalizacji, brak stron, silna lokalna intencja (godziny, telefon, „sklep w pobliżu").
+
+## §11.5 Liczby po fali 4
+
+| Pozycja | Stan |
+|---|---|
+| Leady w bazie | **64** (59 + 5 nowych) |
+| Odrzuceni z dowodem | **37** (26 + 11 nowych) |
+| Firmy ocenione w trakcie researchu | **ok. 130** |
+| Leady z potwierdzoną luką stron lokalnych ✅ | 11 |
+| Priorytety nowej fali | 2×A+ (PSB, Chata Polska), 3×A (Ale Animale, Moby Dick, Family Pets) |
+| Do sprawdzenia (nie liczone do leadów) | 2 (Speed Queen, EBS) |

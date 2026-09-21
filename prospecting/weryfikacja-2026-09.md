@@ -145,3 +145,66 @@ Dokument źródłowy do `velto-leads-2026-09.md` (wersja 3). Każde ustalenie ma
 | **Lejdis Studio** | 10 szkół tańca | sieć w fazie franczyzowej (dane 2023) | strony per szkoła |
 | **Samo Zdrowie** (sklepy medyczne) | 25 → 40 placówek (2022–2026), franczyza | brak potwierdzenia stron per sklep | strony per sklep pod „sklep medyczny [miasto]" |
 | **Nexterio** (outlet materiałów wykończeniowych) | 77 sklepów, ~50% franczyza | do weryfikacji | strony per sklep pod „outlet [miasto]" |
+
+---
+
+# RUNDA 4 — 21.09.2026 (sieci handlowe, grupy zakupowe, warsztatowe, apteki, fitness, zoologiczne)
+
+Pytanie badawcze: czy w segmencie dużych sieci (100+ lokalizacji) zostały jeszcze firmy bez stron lokalizacji? Sprawdzane URL-e i wyniki (każdy wpis = konkretny link, na którym oparłem decyzję).
+
+## A. ODRZUCONE — sieć już ma strony lokalizacji (dowód: URL)
+
+1. **Xtreme Fitness Gyms** (184 kluby + 16 Xtreme KiDS, franczyza, cel 227 na 2026).
+   Dowód: https://www.xtremefitness.pl/kluby/XF_Krakow_Zyczkowskiego — pełna strona klubu (adres, godziny 06:00–23:00, telefon 692 777 008, e-mail klubowy, strefy, grafik zajęć pod /grafik, regulamin pod /regulamin). Lista klubów jest pod /kluby/ (sama strona główna podaje „204 kluby").
+   Wniosek: R27. Uwaga na przyszłość: brak /kluby/ jako podstrony NIE oznacza braku stron klubów — sprawdzać wzorzec /kluby/<ID>/ i podstrony miast.
+2. **36 MINUT** (60+ klubów, franczyza butikowych studiów).
+   Dowód: https://36minut.pl/kluby/ — lista z linkami do osobnych stron, np. https://36minut.pl/project/36-minut-aleksandrow/, /36-minut-bialystok/, /36-minut-pruszkow/ (adres + „Zapisz mnie").
+   Wniosek: R28.
+3. **Cukiernia Sowa** (ok. 170 placówek, franczyza).
+   Dowód: https://www.cukierniasowa.pl/cukiernie — mapa + karty, każda z linkiem „zobacz wizytówkę", np. https://www.cukierniasowa.pl/cukiernie/bydgoszcz-ul-mostowa-5 (adres, telefon, godziny).
+   Wniosek: R29. (Uwaga: /nasze-cukiernie zwraca 404 — właściwa ścieżka to /cukiernie.)
+4. **Piekarnia-Cukiernia Putka** (ok. 140–260 lokali; Warszawa i Łódź; wg Putka 100-lecie, 140 piekarni + 30 patronackich; wg prasy do 260).
+   Dowód: https://www.putka.pl/piekarnia/slaska-6/ — strona lokalu z godzinami, telefonem i modułem „Zobacz inne piekarnie w pobliżu".
+   Wniosek: R30.
+5. **MaXserwis (Auto Partner SA)** (ok. 570 warsztatów, w tym 80+ Premium Motul; koordynator sieci Aleksander Ochęduszko, Łukasz Skowronek — autopartner.com).
+   Dowód: https://maxserwis.com.pl/?s=warszawa&miasto → 19 warsztatów w Warszawie, każdy z linkiem „Strona warsztatu", np. https://maxserwis.com.pl/warsztat/aldito-aliaksandr-chuneyeu-targowek/. Filtry działają na parametrach ?s=…&miasto.
+   Wniosek: R31 — mimo że same filtry są słabe SEO-owo, każdy warsztat ma własną podstronę z godzinami, więc sieć „ma to zrobione".
+6. **Bosch Car Service** (400+ warsztatów w PL).
+   Dowód: warsztat sieci ma własną subdomenę: https://polanowski.bosch-service.pl/pl (adres, telefon, e-mail, godziny); sieć prowadzi też podstrony miast: boschcarservice.com/pl/pl/wyszukiwanie-warsztatu/ („Mechanicy Białystok", „Mechanicy Kraków"…).
+   Wniosek: R32.
+7. **Eurorepar Car Service** (ok. 100 warsztatów w PL, sieć Stellantis).
+   Dowód: https://www.eurorepar.pl/warsztat-auto-watkem-rzeszow-8910.html — osobna strona warsztatu z godzinami i przyciskiem „Umów wizytę". Lokalizator: eurorepar.pl/garage (20 stron wyników).
+   Wniosek: R33.
+8. **Gemini (apteki)** (350 aptek franczyzowych, jubileusz 35-lecia, 350. apteka we Wrocławiu 31.03.2026).
+   Dowód: https://gemini.pl/apteki/mazowieckie/warszawa — podstrony per miasto (adresy aptek w mieście). Brak stron per apteka, ale luka miejska jest częściowo pokryta.
+   Wniosek: R34 z zastrzeżeniem — decyzja spójna z wcześniejszym odrzuceniem Cosinusa (strony per miasto).
+9. **AnimalZoone** (18 sklepów + e-commerce; rodzina Futro, od 1940).
+   Dowód: https://animalzoone.pl/strony-lokalne — „strony lokalne" dla 36 miast, np. https://animalzoone.pl/strony-lokalne/sklep-zoologiczny-opole-169. Firma sama buduje lokalne landingi (dla sklepu online), więc jest świadoma tematu i ma to wdrożone.
+   Wniosek: R35.
+10. **Kakadu Zoo** (84 sklepy stacjonarne + e-commerce, od 1999).
+    Dowód: wpisy per sklep w blogu, np. https://kakadu.pl/blog/sklep-zoologiczny-kakadu-w-ch-auchan-komorniki/ (adres, godziny, kontakt, czasem informacja o zamknięciu).
+    Wniosek: R36 — mają treści per sklep (choć w blogu i nie zawsze aktualne).
+11. **Aquael Zoo** (117–119 salonów, marka AQUAEL; sieć od 2009).
+    Dowód: https://www.aquaelzoo.pl/nasze-sklepy — mapa/lokalizator („Znajdź sklep", geolokalizacja); lista sklepów pokazuje lokalizacje wyłącznie w galeriach i parkach handlowych (CH Auchan Płock, CH Ferio, CH Janki, CH Karuzela Ełk, CH Turawa Park, CH Turzyn, PH S1, Vendo Park…).
+    Wniosek: R37 — ta sama przesłanka co przy Olimp (R17): brak lokalnej intencji zakupowej poza centrum handlowym. Gdyby pojawiły się salony uliczne — wrócić do tematu.
+
+## B. KANDYDACI POTWIERDZENI jako leady (5)
+
+1. **Grupa PSB / PSB Mrówka** — 416 sklepów Mrówka + 271 składów PSB + 81 PSB Profi (grupapsb.com.pl: „Grupa PSB – 271 składów, PSB Mrówka – 416 sklepów, PSB Profi – 81 placówek"; wcześniejsze źródła: 363 sklepy 04.2024, 373 wg pewnafranczyza.pl). Lokalizator: https://www.grupapsb.com.pl/gdzie-kupisz („Mapa/Lista", filtry, „Ustal moje położenie") — wpisy z nazwą, adresem i telefonem, bez osobnych stron. Zewnętrzna lista: poradnik-remontowy24.pl (411 lokalizacji).
+2. **Chata Polska (Grupa MAR-OL)** — 413 sklepów (29 własnych) w 7 województwach, ok. 20 otwarć rocznie (braindesign.pl, 10.2025; inne źródła: 300–410 w różnych datach). Dowód braku stron: https://www.chatapolska.pl/sklepy/wielkopolskie,18.html = mapa + wyszukiwarka ulica/miasto; na stronie głównej „znajdź sklep" prowadzi do https://www.chatapolska.pl/localization, czyli formularza „szukamy lokalizacji". Centrala: Zwierzchowskiego 25, Poznań, 61 65 00 360; brak publicznego e-maila.
+3. **Ale Animale** — 41 sklepów. Dowód: https://aleanimale.pl/nasze-sklepy/ = lokalizator „Wszystkie sklepy (41)" z kartami (adres, telefon, wskazówki) i przyciskiem „Szczegóły" (bez osobnych adresów URL podstron). Miasta: Kraków ×3, Tarnów, Rzeszów, Nowy Sącz, Olkusz, Myślenice, Jaworzno, Sosnowiec, Częstochowa, Rzeszów, Przemyśl, Sandomierz, Bochnia, Brzesko, Dębica, Mielec, Biłgoraj…
+4. **Moby Dick / Moby Dick Group** — ok. 101 sklepów partnerskich (propertynews.pl 03.2026: „grupa niezależnych, specjalistycznych sklepów zoologicznych… 101 placówek różnego formatu"). Dowód braku listy: https://mobydick.com.pl/ pokazuje marki + formularz kontaktowy; lista sklepów Moby Dick znajduje się na stronach trzecich, np. https://vitapol.pl/sklepy-stacjonarne/ („Lista sklepów partnerskich: Moby Dick"). Uwaga: mobydickmarket.pl wskazuje „PROGRAM PARTNERSKI: www.MobyDickGroup.pl" — kanał sprzedaży = program dla partnerów.
+5. **Family Pets** — „ponad 40 lokalizacji w całej Polsce i dynamiczny rozwój" (https://familypets.pl/franczyza/), franczyza, sklepy z żywymi zwierzętami, kontakt: Ułańska 9, Kołaczkowo. Status stron lokalnych: NIE POTWIERDZONY → w bazie z tagiem „DO WERYFIKACJI".
+
+## C. ZATRZYMANE — nie potwierdzono statusu, nie wciągam do leadów
+
+- **Speed Queen pralnie** — sieć w PL: 72 (2024) → „blisko 100" (2026). Warszawski operator (pralniaspeedqueen.waw.pl, Jacek Zieliński 504 040 782, biuro@pralniaspeedqueen.waw.pl) ma własne podstrony per pralnia: https://pralniaspeedqueen.waw.pl/praga-poludnie/ (Gocław, adres, godziny, zdjęcia). Czy franczyzobiorcy w innych miastach mają strony — brak danych. Segment obiecujący, ale wymaga osobnej rundy.
+- **EBS Pralnie** (dawniej 5asec; 23 franczyzowe, obecność w 20 miastach) — https://pralniaebs.pl/pralnie-ebs/ i /znajdz-pralnie/ to listy z przyciskiem „Zobacz szczegóły"; przy próbie pobrania strony zwrócił się tylko baner cookies — nie ustaliłem, czy „Szczegóły" prowadzą do osobnych podstron. Do dosprawdzenia.
+
+## D. Wzorce z tej rundy (do stosowania dalej)
+
+1. **„Szczegóły" / „Zobacz szczegóły" w lokalizatorze** — trzeba sprawdzić, czy to link do podstrony, czy okno w mapie. Odróżnienie decyduje o leadzie (tak rozstrzygnąłem Ale Animale vs EBS).
+2. **Grupy zakupowe i franczyzy 300–800 placówek** (PSB, Chata Polska) prawie nigdy nie mają stron lokalnych, bo temat „należy do franczyzobiorców". To największe nieobsłużone źródło — decyzja zapada w centrali.
+3. **Sieci warsztatowe w Polsce są zamknięte** (MaXserwis, Bosch, Eurorepar — wszystkie dają warsztatom strony/subdomeny). Nie wracać do tego segmentu bez nowego gracza.
+4. **Apteki sieciowe** — lokalne SEO rozgrywane na poziomie miast (Gemini) albo w ogóle; sieci apteczne odpadły.
+5. **Galerie handlowe = brak lokalnej intencji** (Olimp R17, teraz Aquael Zoo R37). Sprawdzać adresy, nie tylko liczbę lokalizacji.
