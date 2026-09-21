@@ -114,3 +114,34 @@ Dokument źródłowy do `velto-leads-2026-09.md` (wersja 3). Każde ustalenie ma
 4. **Mapa Google My Maps albo strona zbiorcza (województwo/region)** = luka realna → najlepszy lead.
 5. **Landingi per miasto służące rekrutacji franczyzobiorców** (Studio Synergy, In.Time) nie są stronami dla klientów → realna, węższa luka.
 6. Sieci z franczyzą 10+ lat i 100+ punktami prawie zawsze mają rozwiązanie — czas na sieci młodsze (10–70 punktów).
+
+---
+
+## RUNDA 3 — nowe kierunki (protetyka słuchu, edukacja, opieka, sale zabaw, optyka, myjnie, szyby)
+
+### ❌ OBALONE — te sieci JUŻ mają strony per lokalizacja
+| Firma | Skala | Dowód |
+|---|---|---|
+| **Marmed** | 220+ gabinetów protetyki słuchu, od 1990 | `marmed.pl/gabinety/mazowieckie/aparaty-sluchowe-radom/` — podstrony per gabinet z opisem, FAQ, specjalistami |
+| **Audiofon** | 450+ oddziałów | `audiofon.com.pl/badanie-sluchu-krakow`, `/aparaty-sluchowe-<miasto>` dla ~18 miast; starsze miasta w `/wojewodztwa` (częściowa luka w długim ogonie — patrz lead 59) |
+| **Audiofon-Brzoza** | 12 gabinetów w 10 miastach | `audiofon-brzoza.pl/news/gabinety/bydgoszcz.html` — podstrony per miasto z godzinami i telefonami |
+| **Fikołki** (sale zabaw) | ~35 lokalizacji w galeriach | `fikolki.pl/alfa-bialystok/`, `/sfera/`, `/lokalizacja/galeria-morena/` — osobne strony per lokal |
+| **Cosinus** (szkoły policealne) | 40+ miast | `cosinus.pl/kielce`, `cosinus.pl/krakow` — strony per miasto z sekretariatem, planem, kierunkami |
+| **Emeis Polska** (domy opieki) | 15 placówek, 1500 miejsc | `emeis.pl/honorata` — podstrony per placówka z usługami, galerią, kontaktem |
+| **Body Evolution** (modelowanie sylwetki) | 15–27 gabinetów | `bodyevolution.pl/nasze-salony/` + podstrony per miasto (Bydgoszcz, Legionowo, Poznań…) |
+| **VisionOptyk** | 16 salonów (Wielkopolska) / sieć franczyzowa w ekspansji | `visionoptyk.pl/salony/` — „Przejdź do strony salonu w Śremie" (odnośniki do osobnych stron salonów) |
+
+**Wniosek metodyczny:** wzorzec z rundy 2 potwierdził się także w protetyce słuchu, edukacji policealnej i domach opieki — sieci z 15+ lokalizacjami i własnym marketingiem **mają** podstrony per lokalizacja. Dlatego realny zostaje model sieci partnerskich i firm, które zatrzymały się na lokalizatorze.
+
+### ✅ NOWE LEADY (luka potwierdzona)
+| Firma | Skala | Ustalenie | Kąt |
+|---|---|---|---|
+| **Szybex** (szyby samochodowe) | 12–15 oddziałów własnych + „ogólnopolska sieć zaufanych Partnerów" (200+ punktów, m.in. Pilkington Team Partner) | `szybex.pl/kontakt/` — jedna strona z listą oddziałów (telefony, maile, „Pokaż na mapie"), brak podstron per oddział | strony per oddział („wymiana szyb [miasto]", „naprawa odprysku [miasto]") + program stron dla partnerów sieci |
+| **Banieczka** | największa sieć myjni samoobsługowych; partnerzy m.in. Aleksandrów Łódzki, Bełchatów, Bystrzyca-Kłodzka, Gliwice, Gorzów Wlkp., Kędzierzyn-Koźle, Nowa Sól, Oborniki, okolice Poznania, Przemęt, Radomsko, Sękowo, Skrzyszów, Śrem, Września | `banieczka.pl/locations/` — tylko lokalizator/wyszukiwarka, brak stron per myjnia | landing per myjnia pod „myjnia bezdotykowa [miasto]" + pakiet dla partnerów |
+| **Fit Cake** | 80+ kawiarni (2024), franczyza od 2017 | lista placówek z adresami, telefonami, mailami i linkami do FB/IG — brak stron per lokal (dane do potwierdzenia) | strony per kawiarnia pod „ciasto bez cukru [miasto]", „kawiarnia bezglutenowa [dziellnica]" |
+| **Audiofon — długi ogon** | 450+ oddziałów, ale landingi tylko dla ~18 miast | ~430 lokalizacji w mniejszych miastach obsługiwanych wyłącznie przez listę wojewódzką | strony dla pozostałych miast w istniejącym szablonie |
+| **Stacja Grawitacja** (parki trampolin) | 4 parki (Warszawa, Częstochowa, Poznań, Łódź) | jedna strona z listą 4 adresów i telefonów | landingi per park: „park trampolin [miasto]", „urodziny [miasto]" |
+| **Hakiel Akademia Tańca** | 5–7 lokalizacji w Warszawie (Mokotów, Białołęka, Gocław, Żoliborz, Wilanów, Sadyba, Wola) | szkoły w dzielnicach, jeden serwis | landingi dzielnicowe: „szkoła tańca [dzielnica]" |
+| **Lejdis Studio** | 10 szkół tańca | sieć w fazie franczyzowej (dane 2023) | strony per szkoła |
+| **Samo Zdrowie** (sklepy medyczne) | 25 → 40 placówek (2022–2026), franczyza | brak potwierdzenia stron per sklep | strony per sklep pod „sklep medyczny [miasto]" |
+| **Nexterio** (outlet materiałów wykończeniowych) | 77 sklepów, ~50% franczyza | do weryfikacji | strony per sklep pod „outlet [miasto]" |

@@ -107,3 +107,28 @@ Franczyzodawca płaci nie za pojedyncze strony, ale za **program**: szablon + wd
 ## 6. Jedno zdanie podsumowania
 
 Najlepsze „nowe" kierunki to nie kolejne duże franczyzy, a **sieci drugiego szeregu i sieci partnerskie** — tam lokalizacje istnieją, zapytania lokalne są, a strony per miasto: nie. Największy mnożnik: sprzedaż **programu stron dla partnerów** jednemu producentowi/dystrybutorowi, który ma ich 50–500.
+
+---
+
+## 7. WYNIKI WERYFIKACJI tych pomysłów (21.09.2026) — obowiązuje nad aktualnym statusem wyżej
+
+Weryfikacja „testem 3 lokalizacji" przeszła przez 15 firm z tych kierunków. Wynik:
+
+**❌ POMYSŁY, KTÓRE ODPADŁY (mają już strony per lokalizacja):**
+- **Protetyka słuchu — pierwsza liga:** Marmed (220+ gabinetów) ma podstrony per gabinet (`/gabinety/mazowieckie/aparaty-sluchowe-radom/`), Audiofon-Brzoza ma podstrony per miasto, VisionOptyk ma własne strony per salon. **Audiofon** (450+ oddziałów) ma landingi tylko dla ~18 miast → zostaje jako lead „długi ogon" (ok. 430 lokalizacji bez stron).
+- **Sale zabaw:** Fikołki (~35 lokalizacji) mają osobne strony per lokal (`/alfa-bialystok/`, `/lokalizacja/galeria-morena/`) → odpada.
+- **Edukacja policealna:** Cosinus (40+ miast) ma strony per miasto → odpada.
+- **Domy opieki:** Emeis (15 placówek) ma podstrony per placówka (`/honorata`) → odpada.
+- **Beauty/fitness sieciowy:** Body Evolution (15–27 gabinetów) ma strony per salon → odpada.
+- **Myjnie „producenckie":** Czysto.pl to firma budująca myjnie inwestorom — nie prowadzi stron dla inwestorów; temat tylko jako kanał.
+
+**✅ POMYSŁY, KTÓRE PRZETRWAŁY (i mają konkretne firmy):**
+1. **Sieci partnerskie motoryzacyjne** — **Szybex** (12–15 oddziałów + 200+ punktów partnerskich Pilkington; tylko lista kontaktowa), **Banieczka** (myjnie samoobsługowe, ~15 miast partnerów, tylko lokalizator). Reszta rynku: ProfiAuto 3500, Q Service 600, Compet 518, S-Plus 700+.
+2. **Franczyzy gastronomiczne z listą placówek bez stron** — **Fit Cake** (80+ kawiarni, lista z linkami do FB/IG).
+3. **Parki trampolin / atrakcje** — **Stacja Grawitacja** (4 parki, jedna strona).
+4. **Tańce/szkoły w wielu dzielnicach** — **Hakiel Akademia Tańca** (5–7 lokalizacji w Warszawie), **Lejdis Studio** (10 szkół).
+5. **Franczyzy sklepowe lokalne** — **Samo Zdrowie** (40 sklepów medycznych), **Nexterio** (77 outletów).
+
+**❌ Pomysły, których NIE potwierdziłem i nie polecam na razie:** sale zabaw innych marek niż sprawdzone, domy opieki, protetyka słuchu (poza długim ogonem Audiofonu), szkoły tańca jako duża sieć ogólnopolska (rynek rozdrobniony, brak dużego gracza), pomoc drogowa (fragmentacja, pojedyncze firmy robią strony same).
+
+**✅ Wniosek, który zastępuje wcześniejszy ranking:** najlepiej działa **sieć partnerska** — firma, która zrzesza niezależnych przedsiębiorców (warsztaty, myjnie, szyby, instalatorzy, sklepy). Tam jedna decyzja daje setki stron i nie ma ryzyka odpowiedzi „mamy to już".

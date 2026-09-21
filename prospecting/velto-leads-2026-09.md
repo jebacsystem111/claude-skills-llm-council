@@ -236,3 +236,48 @@ Po weryfikacji widzę jasny wzorzec — kolejną falę warto zrobić **w sieciac
 **Źródła kluczowe (weryfikacja):** depilconcept.pl/oddzial/depilconcept-gdynia/ · rzeszow-instytut.yasumi.pl · depilacja.pl/salony/endermologia/krakow-srodmiescie/ · moose.pl/oddzial/oddzial-w-katowicach/ · earlystage.pl/szkola/bialoleka-1 · helendoron.pl/nauka-angielskiego-krakow/ · britishschool.pl/warszawa-wola-centrum · perfectlook.clinic/gabinety/plc-wielun/ · hasten.pl/baseny/... · kids-co.pl/kindergarten/wroclaw/nokia/ · dentity.pl/nasze-centra/ · trendyhair.pl/salony/ · gentlemenbarber.pl/nasze-salony/slaskie/ · samui-spa.pl/salony/ · studiosynergy.pl/franczyza/ · intime.pl/trening-ems-wroclaw/ · franczyza.freedom.pl · franchising.pl (Haircut Express, błędne liczby PL) · sprawdzonybiznes.pl (SPW: Ewa Mak) · pb.pl (Tax Care 2019) · footballacademy.pl · fleet.com.pl (sieci warsztatów) · samui-spa.pl/franczyza/ · vetkompleksowo.pl (LuxVet) · newseria.pl (Edina).
 
 *Wszystkie ustalenia i linki per firma: `prospecting/weryfikacja-2026-09.md`.*
+
+---
+
+## 10. NOWA FALA — druga weryfikacja (21.09.2026)
+
+Po weryfikacji z rozdziału 1 zostały cztery firmy z potwierdzoną luką. Ruszyłem więc szukać **nowych branż**: protetyka słuchu, szkoły policealne, domy opieki seniorów, sale zabaw i parki trampolin, optyka, szyby samochodowe, myjnie, szkoły tańca, catering i sklepy franczyzowe. Wzorzec się potwierdził i to jest najważniejszy wniosek: **im większa sieć z własnym marketingiem, tym częściej ma już podstrony per lokalizacja** — także w branżach, w których się tego nie spodziewałem.
+
+### 10.1 Kolejne 7 firm ODRZUCONYCH (z dowodem)
+| Firma | Skala | Co znalazłem |
+|---|---|---|
+| **Marmed** | 220+ gabinetów protetyki słuchu | podstrony per gabinet: `marmed.pl/gabinety/mazowieckie/aparaty-sluchowe-radom/` |
+| **Audiofon-Brzoza** | 12 gabinetów w 10 miastach | podstrony per miasto: `audiofon-brzoza.pl/news/gabinety/bydgoszcz.html` |
+| **Fikołki** | ~35 sal zabaw w galeriach | osobne strony per lokalizacja: `/alfa-bialystok/`, `/sfera/`, `/lokalizacja/galeria-morena/` |
+| **Cosinus** | 40+ miast, szkoły policealne | strony per miasto: `cosinus.pl/kielce`, `cosinus.pl/krakow` |
+| **Emeis Polska** | 15 placówek, 1500 miejsc opieki | podstrony per placówka: `emeis.pl/honorata` |
+| **Body Evolution** | 15–27 gabinetów modelowania sylwetki | podstrony per salon: `bodyevolution.pl/nasze-salony/` + strony miast |
+| **VisionOptyk** | 16 salonów w Wielkopolsce (+ franczyza w ekspansji) | odnośniki „Przejdź do strony salonu w Śremie" — sale mają własne strony |
+
+### 10.2 Nowe leady (pozycje 51–59 w pliku CSV)
+| # | Firma | Model | Skala | Co ustaliłem | Kąt sprzedażowy | Score |
+|---|---|---|---|---|---|---|
+| 51 | **Szybex** | sieć własnych oddziałów + sieć partnerska | 12–15 oddziałów własnych + „ogólnopolska sieć zaufanych Partnerów" (200+ punktów, m.in. jako Pilkington Team Partner) | `szybex.pl/kontakt/` to jedna strona z listą oddziałów (telefony, maile, „Pokaż na mapie") — brak podstron per oddział | strony per oddział („wymiana szyb [miasto]", „naprawa odprysku [miasto]") + **program stron dla partnerów sieci** | **9 → A** |
+| 52 | **Banieczka** | sieć myjni samoobsługowych z partnerami | największa sieć myjni samoobsługowych w PL; partnerzy w ~15 miastach (Aleksandrów Łódzki, Bełchatów, Gliwice, Gorzów Wlkp., Kędzierzyn-Koźle, Nowa Sól, Oborniki, Radomsko, Śrem, Września i in.) | `banieczka.pl/locations/` to wyłącznie lokalizator/wyszukiwarka — brak stron per myjnia | landing per myjnia pod „myjnia bezdotykowa [miasto]" + pakiet dla nowych partnerów | **9 → A** |
+| 53 | **Fit Cake** | franczyza — kawiarnie bez cukru/glutenu | 80+ lokali (2024), franczyza od 2017 | lista placówek z adresami, telefonami, mailami i linkami do social — brak stron per lokal (do potwierdzenia) | strony per kawiarnia: „ciasto bez cukru [miasto]", „kawiarnia bezglutenowa [dzielnica]" | **8 → A** |
+| 54 | **Audiofon (długi ogon)** | sieć protetyki słuchu | 450+ oddziałów, ale landingi miejskie tylko dla ~18 miast | ~430 lokalizacji w mniejszych miastach obsługiwanych wyłącznie przez listę wojewódzką `/wojewodztwa` | strony dla pozostałych miast w istniejącym szablonie — największy wolumen jednej decyzji | **8 → A** |
+| 55 | **Stacja Grawitacja** | parki trampolin | 4 parki: Warszawa (Ochota), Częstochowa, Poznań (Pestka), Łódź | jedna strona z listą 4 adresów i telefonów | landingi per park: „park trampolin [miasto]", „urodziny dla dziecka [miasto]" | **7 → A** |
+| 56 | **Hakiel Akademia Tańca** | szkoła tańca wielolokalizacyjna | 5–7 lokalizacji w Warszawie (Mokotów, Białołęka, Gocław, Żoliborz, Wilanów, Sadyba, Wola) | szkoły rozsiane po dzielnicach, jeden serwis | landingi dzielnicowe: „szkoła tańca [dzielnica]", „taniec dla dzieci [dzielnica]" | **7 → A** |
+| 57 | **Lejdis Studio** | sieć szkół tańca (wchodzi we franczyzę) | 10 szkół (dane 2023) | brak potwierdzenia stron per szkoła | strony per szkoła + zapisy online | **6 → B** |
+| 58 | **Samo Zdrowie** | franczyza — sklepy medyczne | wzrost z 25 (2022) do 40 placówek | brak potwierdzenia stron per sklep | strony per sklep: „sklep medyczny [miasto]", „wypożyczalnia sprzętu [miasto]" | **6 → B** |
+| 59 | **Nexterio** | franczyza — outlety materiałów wykończeniowych | 77 sklepów, ~50% franczyzowych | do weryfikacji | strony per sklep: „outlet [miasto]" | **6 → B** |
+
+### 10.3 Wniosek strategiczny po dwóch rundach weryfikacji
+1. **Sieci własnych placówek** (franczyza i oddziały firmowe) — prawie zawsze mają już podstrony lub subdomeny per lokalizacja. Sprawdzone na 20+ firmach w 10 branżach.
+2. **Zostają dwie realne nisze:**
+   - **sieci partnerskie** (niezależni przedsiębiorcy pod wspólnym szyldem: warsztaty, myjnie, szyby, instalatorzy) — nikt nie robi im stron lokalnych, a decyzja jest jedna: Szybex, Banieczka, ProfiAuto, Q Service, S-Plus, Czysto.pl;
+   - **firmy, które zatrzymały się na etapie lokalizatora/mapy** — Trendy Hair (mapa), Gentlemen Barber (strony wojewódzkie), Stacja Grawitacja (jedna lista), Fit Cake (lista z social linkami), Szybex (lista oddziałów).
+3. **Kolejna fala powinna iść w sieci partnerskie** — tam stosunek „jedna rozmowa → setki potencjalnych stron" jest najwyższy i nie ma ryzyka, że klient odpowie „mamy to już".
+
+### 10.4 Zaktualizowane liczby (po dwóch rundach)
+| Pozycja | Liczba |
+|---|---|
+| Leadów w pliku CSV (TOP 20 + backup 30 + nowa fala 9) | **59** |
+| Odrzuconych z dowodem | **26** |
+| Firm przeanalizowanych łącznie | **~105** |
+| Leadów z potwierdzoną luką lokalną (✅) | **8** |
