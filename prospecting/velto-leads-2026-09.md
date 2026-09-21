@@ -1,334 +1,280 @@
-# Velto WebDesign — Research prospectingowy B2B (sieci wielolokalizacyjne, agencje, deweloperzy)
+# Velto WebDesign — lokalne landing page per placówka (SEO lokalne). Research prospectingowy B2B
 
-**Data researchu:** 21.09.2026
-**Obszar:** Polska
-**Cel:** klienci, u których JEDEN kontrakt = 10+ stron lub regularne zlecenia webdev (szablon + lokalne wersje, white-label, obsługa techniczna)
+**Wersja 2 — przebudowana 21.09.2026.**
+Zmiana profilu (korekta użytkownika): sprzedajemy **stronę wizytówkową / landing page dla każdej lokalizacji osobno**, której celem jest wyświetlanie się na frazy „usługa + miasto/dzielnica" (np. *masaż Pszczyna Dolny* → `masaz-relax-pszczyna.pl` lub `/pszczyna`). Ranking został przebudowany pod ten profil: liczy się nie liczba lokalizacji, ale **lokalna intencja zakupowa** (czy klient w ogóle wpisuje taką frazę) i **luka w widoczności lokalnej** po stronie firmy.
 
 ---
 
-## 0. Jak czytać ten dokument (metoda i uczciwość danych)
+## 0. Metoda, filtr nadrzędny i uczciwość danych
 
-**Czego NIE robiłem:** nie zgadywałem e-maili, telefonów ani nazwisk. Jeśli czegoś nie było publicznie — jest wpisane „brak publicznego e-maila” / „brak danych”. Nie wymyślałem też leadów „na siłę” — każdy wpis ma konkretne źródło skali.
+### 0.1 Filtr nadrzędny (nowy) — dwie bramki
 
-**Trzy statusy weryfikacji, których używam:**
+**Bramka A — lokalna intencja zakupowa.**
+Czy klient końcowy wpisuje w Google usługę + miasto/dzielnicę i kupuje w konkretnym punkcie?
+- TAK (usługi osobiste i zdrowotne): masaż, depilacja, kosmetologia, fryzjer/barber, EMS/fitness, stomatologia, fizjoterapia, weterynaria, optyka, szkoły dla dzieci i dorosłych, szkoły jazdy, biura nieruchomości, warsztaty samochodowe.
+- NIE / słabo (B2B, brak konsumenckiego zapytania lokalnego): zarządcy wspólnot, deweloperzy (wyjątek: „mieszkania + lokalizacja"), platformy i agencje.
 
-| Status | Znaczenie |
+**Bramka B — luka lokalna.**
+Czy lokalizacje mają własne, indeksowalne strony? Jeśli centrala już to zapewnia → −5 i ODRZUCENIE (zasada z korekty o Da Grasso: jeżeli sieć obsługuje wszystkie lokalizacje przez jeden centralny kanał — jedna strona zbiera zamówienia, dostawę, e-commerce — strony lokalne nie pełnią funkcji sprzedażowej).
+
+### 0.2 Skala punktowa (bez zmian, stosowana ostrożnie)
+
+| Kryterium | Punkty |
 |---|---|
-| ✅ POTWIERDZONE | Mam dowód w źródle publicznym (np. liczba lokali, kontakt, brak/dobre strony lokalne) |
-| 🔶 DO WERYFIKACJI — brak jednoznacznej informacji | Nie mogę potwierdzić, czy firma ma/nie ma stron lokalnych. Zgodnie z Twoją zasadą NIE twierdzę, że ich nie ma. |
-| ❌ ODRZUCONY | Mam dowód, że firma już oferuje lokalizacjom dokładnie to, co chcesz sprzedać (lub jest ewidentnie złym targetem) |
+| 20+ potencjalnych stron / 10–19 / 5–9 | +3 / +2 / +1 |
+| Wyraźna / umiarkowana / niepewna potrzeba lokalnego SEO | +3 / +2 / +1 |
+| Brak widocznego rozwiązania stron lokalnych / niejasne / firma już zapewnia | +3 / +1 / −5 |
+| Łatwo znaleźć decydenta / kontakt do centrali / tylko formularz | +3 / +2 / +1 |
+| Aktywny rozwój / stabilna sieć / brak info | +2 / +1 / 0 |
 
-**Kluczowa definicja — co liczę jako „firma już ma strony lokalne”:**
-- ❌ NIE liczę jako rozwiązania: mapa Google My Maps, prosty lokalizator, lista adresów/telefonów, wizytówka Google.
-- ✅ LICZĘ jako rozwiązanie: dedykowana strona/subdomena/domena per lokalizacja z treścią (np. `zielonagora.studio-figura.pl`), albo centralny program, który realnie dostarcza franczyzobiorcom osobne strony.
-- 🔶 „Szara strefa” = podstrony typu `kodano.pl/salon.html?code=...` (dane adresowe, bez treści lokalnej). Dla takich firm daję **+1, nie +3** i oznaczam DO WERYFIKACJI.
+Progi: **A+ = 10+**, A = 7–9, B = 4–6, poniżej 4 = odrzuć.
 
-**Model oceny** (Twoje zasady, zastosowane bez zawyżania): skala stron (max +3) + potrzeba lokalnego SEO (max +3) + brak rozwiązania (+3 / +1 / −5) + dostępność kontaktu (+3/+2/+1) + rozwój (+2/+1/0).
+### 0.3 Zasady uczciwości (Twoje wytyczne, stosowane dosłownie)
 
-**Progi:** A+ = 10+, A = 7–9, B = 4–6, ODRZUCONY = ma już rozwiązanie lub zły target.
+- ✅ = potwierdzone w źródle, ❌ = obalone, 🔶 = **DO WERYFIKACJI — brak jednoznacznej informacji**. Przy żadnej firmie nie twierdzę kategorycznie, jeśli nie mam dowodu.
+- Brak danych = „brak danych". Brak publicznego e-maila = „brak publicznego e-maila". **Zero zgadywanych e-maili.**
+- Oceny nie są zawyżane: obniżyłam punkty tam, gdzie wcześniej przyjąłem założenie „nie ma stron lokalnych", a przy lokalizacjach widzę oznaki odwrotne (np. DepilConcept: przy każdym salonie jest własny e-mail i link „Strona www" → nie zakładam braku, tylko oznaczam 🔶).
 
 ---
 
-## 1. TOP 20 — najlepsze leady
+## 1. TOP 20 — lokalne landing page per placówka
 
-| # | Firma | Model | Skala (źródło) | Strony lokalne? | Kontakt | Decydent | Score | Kąt sprzedażowy |
+| # | Firma | Model | Skala | Strony lokalne? | Kontakt | Decydent | Score | Kąt sprzedażowy |
 |---|---|---|---|---|---|---|---|---|
-| 1 | **DepilConcept** (Brown Sugar Esthetical) | sieć usługowa / franczyza | **122 salony w PL**, +20 w przygotowaniu, cel 140; 200+ salonów na świecie (depilconcept.pl, franchising.pl 2025) | 🔶 brak dowodu na osobne strony gabinetów — w strukturze serwisu nie znalazłem listy z podstronami gabinetów (`/salony/` → 404) | franchising@depilconcept.pl, tel. (22) 250 11 34 | **Kamil Miciałkiewicz** — menedżer ds. rozwoju sieci DepilConcept Polska (franchising.pl) | **14 → A+** | 122 miasta, klientka szuka „depilacja laserowa + miasto”, a sieć jedzie na jednej domenie centralnej. Wchodzisz z: szablon centralny + 122 lokalne wersje (subdomeny/`/miasto`), wdrożenie falami, obsługa 199–299 zł/mies. od gabinetu lub pakietowo z centrali. |
-| 2 | **Da Grasso** (Grupa Orkla) | sieć usługowa — gastronomia / franczyza | **≈190 lokali**, cel ~400 (Puls Biznesu 12/2024, retailnet 2025) | 🔶 platforma zamówień + lokalizator; brak widocznych landing page per restauracja | formularz franczyzowy na dagrasso.pl; brak publicznego e-maila do marketingu | **Magdalena Piróg** — prezes Da Grasso (Puls Biznesu) | **12 → A+** | Franczyzobiorcy walczą o „pizza <miasto> dostawa”. Centrala ma 190 punktów, brak lokalnych landingów = pole do „lokalna strona restauracji + menu + zamów online + lokalne SEO”, wdrażane przy każdym otwarciu (kilka–kilkanaście rocznie). |
-| 3 | **mobileEnglish** | edukacja / franczyza | **75 oddziałów franczyzowych**, 1 własny; plan 5–7 otwarć rocznie (franczyzawpolsce.pl) | 🔶 do weryfikacji | brak publicznego e-maila (kontakt przez stronę) | **Jakub Midel** — właściciel sieci (franczyzawpolsce.pl) | **12 → A+** | Szkoła mobilna = brak lokalnych witryn, a każdy oddział działa w innym mieście. Prosty produkt: 1 szablon + wersja per miasto dla franczyzobiorcy, plus obsługa techniczna. |
-| 4 | **Orient Massage + Thai Organic** | wiele marek / sieć usługowa | **32 salony w 2 markach** (18 + 12, po 2 własne), plan 50–60 w 2 lata (franchising.pl) | 🔶 do weryfikacji | brak publicznego e-maila | **Martyna Buchalska** — właścicielka/rozwój sieci (franchising.pl) | **12 → A+** | Dwie marki, jedna centrala, ten sam produkt do sprzedania dwa razy (osobne strony per marka + per miasto). Rozwój 15–20 otwarć/rok = stały strumień wdrożeń. |
-| 5 | **Depilacja.pl** | sieć usługowa / franczyza + własna technologia | ≈65 salonów w PL + salony partnerskie; deklaracja „ponad 200 salonów w grupie” (dobrepomyslynabiznes.pl 2024, franchising.pl) | 🔶 do weryfikacji | brak publicznego e-maila | **Damian Kubik** — dyrektor generalny (franchising.pl) | **11 → A+** | Beauty + technologia = sieć, która rozumie dane, ale sprzedaje zabiegi w konkretnych miastach. Sprzedajesz lokalne strony pod frazy „laserowe usuwanie owłosienia <miasto>” + spójny szablon dla nowych salonów partnerskich. |
-| 6 | **Yasumi Instytuty** | sieć usługowa beauty / franczyza | **148–160 salonów** (10 własnych, ~138 franczyzowych); plan +100; 10–12 otwarć/rok (franchising.pl 2024, franczyzawpolsce.pl) | 🔶 do weryfikacji | brak publicznego e-maila (strona z ofertą franczyzy) | **Zofia Bydałek** — odpowiedzialna za franczyzę/sieć (franczyzawpolsce.pl) | **11 → A+** | Największa sieć instytutów urody. Kąt: „Yasumi Beauty Point” ma docelowo ~200 lokalizacji drobnych gabinetów — centralny szablon + szybkie strony dla każdego nowego punktu (mikro-wdrożenia po 999–1500 zł). |
-| 7 | **Freedom Nieruchomości** (Freedom Holding; + Investor Nieruchomości) | agencja sieciowa / franczyza | **100–123 oddziały**, ~600–700 agentów (franczyza.freedom.pl, Forbes) | 🔶 do weryfikacji — franczyzobiorcy dostają narzędzia, ale nie potwierdziłem własnych stron per biuro | franczyza.freedom.pl (formularz); brak publicznego e-maila | **Agnieszka Dąbrowska** — komunikacja/rozwój (freedom.pl, źródło z 2018 — wymaga aktualizacji) | **11 → A+** | 100+ biur = 100+ „agent + miasto + dzielnica” fraz. Propozycja: strony biur/doradców pod SEO lokalne („mieszkania na sprzedaż <dzielnica>”), szablon + wersje, abonament serwisowy dla sieci. |
-| 8 | **Status Nieruchomości** | zarządca nieruchomości | **500+ wspólnot** obsłużonych, działa od 1999 (status.pl) | ✅ brak stron per nieruchomość — jedna strona firmowa | brak publicznego e-maila (formularz) | brak danych o decydencie (właściciel/zarząd) — do zdobycia z KRS/ul. Status | **11 → A+** | 500 wspólnot = 500 potencjalnych landingów (osiedle/budynek: ogłoszenia, kontakt, dokumenty). Sprzedajesz: jeden szablon + osobne strony dla największych wspólnot, potem obsługa techniczna. Realnie: 20–50 stron z jednego kontraktu. |
-| 9 | **Grupa Biurowiec** | zarządca nieruchomości | **4 473+ zarządzanych nieruchomości i lokali**, Małopolska/Śląsk (grupabiurowiec.com.pl) | ✅ jedna strona firmowa — brak stron per nieruchomość | brak publicznego e-maila (formularz) | brak danych o decydencie | **11 → A+** | Skala „osiedlowa” bez lokalnej obecności online. Kąt: strony dla wspólnot/administrowanych budynków + SEO „zarządca wspólnoty <miasto>” — plus stała obsługa techniczna tysięcy stron w przyszłości. |
-| 10 | **PROFIT system** | kanał partnerski / doradztwo franczyzowe | **300+ opracowanych konceptów franczyzowych**, 26 krajów, działa od 1998 (profitsystem.pl) | n/d — nie tworzą stron | tel. +48 22 560 80 20, bok@profitsystem.pl, doradztwo@profitsystem.pl | **Michał Wiśniewski** — prezes; doradcy: Karina Korczyńska, Michał Skubiszewski, Katarzyna Sienkiewicz | **11 → A+** | Nie kupują jednej strony — mogą wprowadzić Cię jako „domyślnego wykonawcę” stron dla setek nowych sieci franczyzowych. Kąt: umowa partnerska/referencyjna, prowizja lub white-label, pakiet „gotowy zestaw stron dla nowego systemu franczyzowego”. |
-| 11 | **Early Stage** | edukacja / franczyza | **850+ placówek**, 147 franczyzobiorców, 58 000 uczniów (franchising.pl 2024/25) | 🔶 do weryfikacji (jest wyszukiwarka placówek) | brak publicznego e-maila (formularz) | brak danych o osobie od marketingu | **11 → A+** | 850 lokalizacji, w których odbywają się zajęcia. Nawet jeśli część obsługuje centrala: sprzedajesz lokalne landingi dla mikrolokalizacji + obsługę techniczną na skalę. Kontrakt = dziesiątki–setki stron. |
-| 12 | **Helen Doron English Polska** | edukacja / franczyza | **220+ oddziałów w PL**, 1000+ centrów w 38 krajach (franczyzawpolsce.pl, helendoron.pl) | 🔶 do weryfikacji — jest wyszukiwarka centrów | brak publicznego e-maila (formularz) | brak danych o osobie odpowiedzialnej za sieć PL | **11 → A+** | Franczyzobiorcy to często lokalni przedsiębiorcy bez własnych stron. Kąt: „strona centrum + lokalne SEO dla zapisów”, wdrożenia przy każdym nowym centrum. |
-| 13 | **ARSS (Akademia Rozwoju Systemów Sieciowych)** | kanał partnerski / doradztwo franczyzowe + media branżowe | **200+ opracowanych ofert franczyzowych**, wydawca „Franczyza w Polsce” (arss.com.pl) | n/d — nie tworzą stron | biuro@arss.com.pl, tel. 604 939 960, ul. Korfantego 58, Warszawa | brak nazwiska decydenta w źródle (do zdobycia przez LinkedIn) | **10 → A+** | Podobnie jak PROFIT: wejście jako partner wykonawczy dla ich klientów-franczyzodawców + publikacje w portalu (sprzedaż „na koszt marketingowy” sieci). |
-| 14 | **Mała Lingua** | edukacja / franczyza | **40+ partnerów franczyzowych w ~200 punktach** (franczyzawpolsce.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych o decydencie | **10 → A+** | Model „nauka w przedszkolach/szkołach” = brak stałej lokalizacji, więc lokalne strony są jedynym sposobem na SEO miasta. Kąt: pakiet miast (200 punktów) = ogromna liczba wdrożeń przy niskim koszcie jednostkowym. |
-| 15 | **Tax Care** | sieć usługowa (biura rachunkowe) / franczyza | 12 centrów własnych + **270–300 biur partnerskich**, plan ~1000 (prnews.pl, franczyzabanku.pl; dane starsze — do aktualizacji) | 🔶 do weryfikacji — promocja biur odbywa się „na stronie taxcare.pl” (tyle potwierdza źródło 2016) | brak publicznego e-maila (formularz) | **Adam Głos** — prezes (źródło 2016, wymaga potwierdzenia aktualności) | **10 → A+** | Sieć biur w miastach powiatowych = dokładnie ten model: „biuro rachunkowe <powiat>”. Kąt: indywidualne strony biur partnerów + lokalne SEO + obsługa techniczna; sprzedaż przez program partnerski centrali. |
-| 16 | **Nawigator Nieruchomości** | zarządca nieruchomości | **250 wspólnot**, 150+ pracowników, własne zaplecze techniczne (nawigator-nieruchomosci.pl) | ✅ jedna strona firmowa | brak publicznego e-maila (formularz) | brak danych o decydencie | **10 → A** | 250 wspólnot = 250 lokalnych stron (ogłoszenia, remonty, kontakt do administracji). Kąt: „portal mieszkańca” jako produkt dodatkowy + hosting/SSL/aktualizacje w abonamencie. |
-| 17 | **Avente** (Zabrze/Śląsk) | zarządca nieruchomości | **140 wspólnot**, 11 specjalistów, 20 lat na rynku (avente.pl) | ✅ jedna strona firmowa | brak publicznego e-maila (formularz + telefony na stronie) | brak danych o decydencie (właściciel) | **10 → A** | Mała firma, duża liczba obiektów, zero webdevu wewnątrz = bardzo realny klient. Kąt: strony osiedli + lokalne SEO „zarządca wspólnot <miasto>” + abonament. |
-| 18 | **Ga-Mi II Zarządzanie Nieruchomościami** | zarządca nieruchomości | **160+ wspólnot** we Wrocławiu i okolicach (starofservice.pl) | ✅ jedna strona firmowa | brak publicznego e-maila (kontakt przez katalog) | brak danych o decydencie | **10 → A** | Ten sam model co wyżej, inny region — pozwala zbudować „drugi rynek” (Wrocław) tym samym szablonem. Kąt: przeniesienie sprawdzonego szablonu z jednego miasta. |
-| 19 | **ZNDOM Zarządzanie Nieruchomościami** | zarządca nieruchomości | **140+ wspólnot** + lokale użytkowe, Warszawa-Śródmieście (zndom.pl) | ✅ jedna strona firmowa | brak publicznego e-maila | brak danych o decydencie | **10 → A** | Kamienice i wspólnoty w Śródmieściu = duża konkurencja o mieszkańca. Kąt: strony budynków (remonty, uchwały, kontakt) + SEO lokalne „administrator kamienicy Warszawa”. |
-| 20 | **in.Time (EMS Studios)** | sieć usługowa fitness / franczyza | **17 studiów** (7 własnych + 10 franczyzowych), źródło franczyzawpolsce.pl | 🔶 do weryfikacji | brak publicznego e-maila | brak danych o osobie od rozwoju | **9 → A** | Trening EMS = zapytania typu „EMS <miasto> cena”. Kąt: lokalne strony studiów + landing pod zapisy; sieć w fazie skalowania (z 17 do kolejnych). |
+| 1 | **DepilConcept** (Brown Sugar Esthetical) | franczyza — depilacja laserowa | 122 salony w PL + 20 w przygotowaniu (VI.2025), ~100 franczyzobiorców | 🔶 DO WERYFIKACJI — przy każdym salonie własny e-mail i link „Strona www"; sprawdzić, czy to odrębne strony czy FB | franchising@depilconcept.pl, tel. (22) 250 11 34 | **Kamil Miciałkiewicz** — menedżer ds. rozwoju sieci | **12 → A+** | 122 punkty rozsiane w miastach 40 tys.+ → jeden szablon landing pod frazę „depilacja laserowa [miasto]", wdrożenie paczkami po 10–20 stron, oddzielny CTA na zapis online |
+| 2 | **Orient Massage + Thai Organic** | wiele marek / franczyza — masaż | 32 salony (18 + 12 + po 2 własne), cel 50–60 | 🔶 DO WERYFIKACJI | brak publicznego e-maila | **Martyna Buchalska** — właścicielka / rozwój sieci | **12 → A+** | To podręcznikowy przypadek Twojego przykładu: „masaż orientalny [miasto]" i „masaż tajski [dzielnica]" — 32 lokalizacje, dwie marki = dwa zestawy landingów |
+| 3 | **mobileEnglish** | franczyza — szkoła językowa dla dzieci | 75 oddziałów franczyzowych + 1 własny | 🔶 DO WERYFIKACJI (sprawdzić 3 losowe oddziały) | brak publicznego e-maila | **Jakub Midel** — właściciel sieci | **12 → A+** | „angielski dla dzieci [miasto/dzielnica]" to zapytanie rodzica z intencją zapisu → 75 landingów + formularz na lekcję pokazową |
+| 4 | **Depilacja.pl** | sieć własna + franczyza | ~62 salony (54 własne, 8 franczyzowych); „jako grupa ponad 200 salonów" | 🔶 DO WERYFIKACJI | brak publicznego e-maila | **Damian Kubik** — dyrektor generalny | **11 → A+** | 54 salony własne = decyzja może zapaść centralnie, bez negocjacji z franczyzobiorcami; frazy „depilacja laserowa [miasto]" + cennik per lokalizacja |
+| 5 | **Yasumi Instytuty** | franczyza — kosmetologia/spa | 148 salonów (10 własnych + 138 franczyzowych), nowe otwarcia 2026 | 🔶 DO WERYFIKACJI | brak publicznego e-maila (formularz franczyzowy) | **Zofia Bydałek** — franczyza/rozwój sieci | **11 → A+** | 138 franczyzobiorców bez własnych stron → „salon kosmetyczny [miasto] / zabiegi [miasto]" + centralny szablon, który franczyzobiorca tylko uzupełnia (to sprzedaje się franczyzodawcy jako wsparcie sieci) |
+| 6 | **Dentity (Grupa Dentity)** | konsolidacja → sieci regionalne stomatologii | 122 gabinety w 22 centrach, 19 miast, 7 województw | ❌ CZĘŚCIOWO — każda marka regionalna ma własną stronę, część ma podstrony per miasto | brak publicznego e-maila (formularz „Dołącz do nas") | **Grzegorz Struzik** — CEO | **11 → A+** | Model „regionalne marki, zero centralizacji" → brak jednolitego standardu local SEO: proponuję szablon landingów per centrum dla marek bez podstron (np. Tulident, Dentica) + spójny schemat LocalBusiness. **Jeśli weryfikacja pokaże, że każda marka ma pełne strony per miasto → odrzucić** |
+| 7 | **Early Stage** | franczyza — szkoły językowe | 850+ szkół franczyzowych, 147 franczyzobiorców, franczyza od 2007 | 🔶 DO WERYFIKACJI | brak publicznego e-maila (formularz) | brak danych o osobie od marketingu/sieci | **10 → A+** | 850 miast i dzielnic; franczyzobiorcy to małe firmy bez budżetu na strony → pakiet „strona oddziału + wizytówka Google" od franczyzodawcy, wdrożenia po 50 sztuk |
+| 8 | **Helen Doron English Polska** | franczyza — szkoły językowe | 220+ oddziałów w PL | 🔶 DO WERYFIKACJI | brak publicznego e-maila (formularz) | brak danych o osobie odpowiedzialnej za sieć PL | **10 → A+** | 220 oddziałów i marka premium dla rodziców → landing per placówka z zapisem na lekcję próbną; łatwy argument: konkurencja (Early Stage, Mała Lingua) też jest lokalnie |
+| 9 | **AMAKids** | franczyza — edukacja dzieci (arytmetyka mentalna) | 387 oddziałów w PL, 125 partnerów | 🔶 DO WERYFIKACJI | brak publicznego e-maila (formularz) | brak danych | **10 → A+** | 387 punktów zajęć w miastach i mniejszych miejscowościach → „zajęcia matematyczne dla dzieci [miasto]" + jeden szablon, centralna spójność |
+| 10 | **Moose Centrum Języków Obcych** | franczyza — szkoły językowe | ~107 oddziałów (35 własnych) | 🔶 DO WERYFIKACJI — dane o sieci z 2023, odświeżyć | brak publicznego e-maila | **Grzegorz Kuzyk** — przedstawiciel sieci (dane 2023) | **10 → A+** | 107 lokalizacji, w tym 35 własnych → najpierw wdrożenie na oddziałach własnych (decyzja centralna), potem rozszerzenie na franczyzobiorców |
+| 11 | **Trendy Hair Fashion** | franczyza — salony fryzjerskie | ~70 salonów (60+ franczyzowych), także CZ i SK | ✅/🔶 lista salonów na stronie centralnej to **tylko Google My Maps** → brak stron per salon do potwierdzenia (sprawdzić subdomeny — lekcja Studio Figury) | brak publicznego e-maila | brak danych | **9 → A** (potencjał 12 = A+ po weryfikacji) | „fryzjer [miasto]", „strzyżenie [dzielnica]" — 70 salonów, marka ogólnopolska, a lokalizacje bez własnych stron → 70 landingów + rezerwacja online |
+| 12 | **Tax Care** | franczyza/partnerstwo — biura rachunkowe | 12 centrów własnych + 270–300 biur partnerskich (dane 2016 — odświeżyć) | 🔶 DO WERYFIKACJI | brak publicznego e-maila (formularz) | **Adam Głos** — prezes (dane 2016, potwierdzić) | **9 → A** | „biuro rachunkowe [miasto]" to zapytanie z intencją kontaktu → 270+ biur partnerskich; jeśli liczby z 2016 się potwierdzą, to największy wolumen stron w zestawieniu |
+| 13 | **Freedom Nieruchomości** (+ Investor Nieruchomości) | franczyza — biura nieruchomości | 100–123 oddziały, 600–700 agentów | 🔶 DO WERYFIKACJI — w nieruchomościach franczyzobiorcy często mają własne strony | franczyza.freedom.pl (formularz), brak publicznego e-maila | **Agnieszka Dąbrowska** — komunikacja/rozwój (dane 2018) | **9 → A** | „biuro nieruchomości [miasto]" + strony agentów; kąt: strona oddziału z ofertą lokalną i „wyceń mieszkanie w [mieście]" zamiast jednej ogólnopolskiej wyszukiwarki |
+| 14 | **LuxVet (Grupa LuxVet)** | konsolidacja — lecznice weterynaryjne | 8 przychodni → cel 150–200 placówek (inwestycja 100–150 mln €) | 🔶 DO WERYFIKACJI — przejmowane lecznice często zachowują własne strony | brak publicznego e-maila | prezes Grupy LuxVet (w źródle cytowany **Marcin Halicki** — potwierdzić stanowisko) | **9 → A** | „weterynarz [miasto]", „lecznica całodobowa [miasto]" — konsolidator przejmuje kilkadziesiąt gabinetów rocznie i potrzebuje wspólnego szablonu stron, zanim urośnie do 150 |
+| 15 | **Samui Spa** | franczyza — masaż balijski/tajski | 10 salonów własnych + 2 franczyzowe, własna szkoła masażu | 🔶 DO WERYFIKACJI | brak publicznego e-maila (formularz franczyzowy) | brak danych (rozmowy franczyzowe prowadzi właściciel) | **9 → A** | Franczyza wystartowała przy 10. salonie → dopiero teraz skalują; „masaż balijski [miasto]" + „masaż tajski [dzielnica]" dla 12+ lokalizacji, szablon gotowy do mnożenia |
+| 16 | **Edina Vetcare Group** | konsolidacja — lecznice weterynaryjne | kilkanaście placówek → cel 200+ (inwestor TDJ Equity) | 🔶 DO WERYFIKACJI | brak publicznego e-maila | **Aleksandra Gutkowska** — założycielka Ediny | **8 → A** | Ten sam model co LuxVet: konsolidacja rozdrobnionego rynku (72% gabinetów to praktyki 1,5-lekarzowe) → landingi per lecznica pod „weterynarz [miasto]" |
+| 17 | **In.Time EMS Studios** | franczyza — studia EMS | 17 studiów (7 własnych + 10 franczyzowych) | 🔶 DO WERYFIKACJI | franczyza@intime.pl, tel. 780 560 537 | **Kacper Orłowski** — osoba kontaktowa ds. franczyzy | **8 → A** | „trening EMS [miasto]", „EMS [dzielnica]" — frazy z lokalną intencją, 17 studio; kontakt imienny już podany publicznie → najszybsza ścieżka do rozmowy z całej listy |
+| 18 | **Haircut Express** | franczyza — salony fryzjerskie | 30 salonów w PL (katalog: 150 salonów w 4 krajach — dane nieaktualne, odświeżyć) | 🔶 DO WERYFIKACJI | brak publicznego e-maila | brak danych | **8 → A** | 30–150 punktów, fryzjerstwo = zapytanie lokalne; jeśli potwierdzi się liczba 120+ salonów franczyzowych, sprawa awansuje wysoko |
+| 19 | **Hasten (szkoła pływania)** | firma wielolokalizacyjna (nie franczyza) | 14 lokalizacji w Warszawie i Legionowie, 260+ grup | 🔶 DO WERYFIKACJI | brak publicznego e-maila | brak danych | **8 → A** | 14 lokalizacji w jednym mieście = idealny test „dzielnicowych" landingów („nauka pływania Mokotów / Ursynów") + grupy wiekowe; wzór do powtórzenia u innych szkół sportowych |
+| 20 | **Gentlemen Barber Shop** | franczyza — barber | 19 punktów (13 franczyzowych + 6 własnych) | 🔶 DO WERYFIKACJI | brak publicznego e-maila | brak danych | **8 → A** | „barber [miasto]", „strzyżenie brody [dzielnica]" — 19 punktów, młoda sieć; landing + rezerwacja online per lokal |
 
-### TOP 10 — dlaczego to najlepsze kierunki
-
-1. **DepilConcept** — dokładnie Twój model: 122 lokalizacje, franczyza, brak dowodu na strony per gabinet, a do tego realnie rosnąca sieć i łatwy decydent od rozwoju sieci. Sprzedaż: 122 wdrożenia z jednego szablonu + ewentualny abonament od gabinetu.
-2. **Da Grasso** — największa franczyza pizza w PL (≈190 lokali, plan x2). Lokalne SEO („pizza dostawa <miasto>”) to oczywisty pieniądz, a przy każdym otwarciu potrzeba nowego landingu — powtarzalne zlecenia, nie jednorazówka.
-3. **mobileEnglish** — 75 franczyzobiorców bez (potwierdzonych) lokalnych stron, tani produkt (999–2000 zł), bardzo krótka decyzja. Skala mniejsza niż DepilConcept, ale prawdopodobieństwo zamknięcia wyższe.
-4. **Orient Massage + Thai Organic** — dwie marki, jedna centrala: możesz sprzedać dwa razy i obsłużyć plan 15–20 otwarć/rok. Idealny model „multi-brand”.
-5. **Depilacja.pl** — grupa beauty z podejściem technologicznym: kupią szybciej niż sieć, która nie ma żadnych procesów online. Argument „lokalny SEO per salon” jest dla nich zrozumiały od pierwszego zdania.
-6. **Yasumi** — 148–160 salonów + plan +100 i osobny koncept Yasumi Beauty Point (do 200 lokalizacji): jeżeli wejdziesz w pakiet, praca na lata.
-7. **Freedom Nieruchomości** — 100+ oddziałów, silna potrzeba lokalnego SEO (agent/dzielnica), franczyzobiorcy z budżetem marketingowym. Ryzyko: możliwość centralnego dostawcy — do sprawdzenia przy pierwszym kontakcie.
-8. **Status Nieruchomości** — 500 wspólnot. Wystarczy sprzedać strony dla 5% = 25 stron i abonament. Bardzo mało firm „webdevowych” na tym rynku = brak konkurencji w negocjacjach.
-9. **Grupa Biurowiec** — skala 4 473 nieruchomości na Śląsku/Małopolsce; produkt „strona dla wspólnoty” jest tu naturalnym, powtarzalnym SKU.
-10. **PROFIT system** — nie klient na 1 stronę, ale kanał dostępu do setek sieci franczyzowych. Najlepszy sposób na skalowanie bez budowy działu sprzedaży.
+**Kontakty:** tam, gdzie piszę „brak publicznego e-maila" — tak jest w źródłach i **nie wymyślam adresu**. Telefon/e-mail zdobywamy z formularza centrali lub z LinkedIn decydenta.
 
 ---
 
-## 2. Backup — kolejne 30 leadów (do dalszej weryfikacji i kontaktu)
+## 2. TOP 10 — dlaczego to najlepsze kierunki (2–3 zdania)
 
-| # | Firma | Model | Skala (źródło) | Strony lokalne? | Kontakt | Decydent | Score | Kąt sprzedażowy |
-|---|---|---|---|---|---|---|---|---|
-| 21 | Perfect Look Clinic | sieć usługowa beauty / franczyza | ~80 salonów (12 nowych w 2024/25), plan 200 (GF24.pl, businesswomanlife.pl) | 🔶 **CZĘŚCIOWO POKRYTE** — centrala publikuje podstrony `/kliniki/<miasto>` (trojmiasto.pl cytuje link) | wielun@perfectlookclinic.pl (e-mail przykładowego salonu z FB) | **Szymon Pankowski** — dyrektor operacyjny sieci franczyzowej; **Damian Ozga** — współwłaściciel | **6 → B (ryzyko)** | Kupią tylko coś, czego nie mają: strony na własnych domenach dla multifranczyzobiorców (rekordzista ma 4 salony) albo system obsługi 80 stron w subdomenach. |
-| 22 | Gentlemen Barber Shop | sieć usługowa / franczyza | 19 punktów (13 franczyzowych + 6 własnych), cel 50 (franchising.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych o osobie od franczyzy | **9 → A** | Barbershop = walka o „barber <dzielnica>”. Cel 50 punktów = 30+ wdrożeń w perspektywie kilku lat. |
-| 23 | Kodano Optyk | sieć usługowa (optyka) / franczyza | 130+ salonów, plan 170 do końca 2026, **+50 otwarć/rok** (retailnet 2026) | 🔶 podstrony `salon.html?code=` (bez treści lokalnej) | brak publicznego e-maila (formularz) | **Łukasz Kuczyński** — dyrektor ds. rozwoju franczyzy KODANO | **9 → A (ryzyko: własny e-commerce)*** | 50 nowych salonów rocznie = 50 landingów/rok. Ryzyko: mają zaawansowany e-commerce i własny zespół — wchodź jako wsparcie lokalnego SEO, nie jako główny wykonawca. |
-| 24 | Moose Centrum Języków Obcych | edukacja / franczyza | ok. **107 oddziałów** (35 własnych) (franczyzawpolsce.pl) | 🔶 do weryfikacji | brak publicznego e-maila | **Grzegorz Kuzyk** — cytowany jako przedstawiciel sieci (franczyzawpolsce.pl, dane 2023) | **9 → A** | 100+ oddziałów, model „oddział przyjmuje uczniów z okolicznych miast” — strony miast + obsługa techniczna. |
-| 25 | British School | edukacja / franczyza | 40–60+ oddziałów franczyzowych (britishschool.pl/franchising, franczyzawpolsce.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **8 → A** | Klasyczny franczyzowy network językowy: lokalne strony oddziałów + landingi zapisowe na semestr (powtarzalne kampanie). |
-| 26 | SPW Szkoła Pamięci | edukacja / franczyza | ok. 100 oddziałów (dane 2016 — **do aktualizacji**) | 🔶 do weryfikacji | brak publicznego e-maila | **Tomasz Wachowiak** — dyrektor (źródło 2024, cytowane wcześniej) | **9 → A** | Jeśli sieć nadal liczy ~100 oddziałów: tanie wdrożenia lokalne + lokalne SEO „kurs szybkiego czytania <miasto>”. |
-| 27 | SOCATOTS Polska | edukacja/sport dzieci / franczyza | 2 jednostki własne + **70 franczyzowych** (franczyzawpolsce.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **8 → A** | Szkółki piłkarskie dla dzieci = zapisy lokalne, brak stron oddziałów. Produkt: strona oddziału + zapisy + obsługa techniczna w abonamencie. |
-| 28 | Football Academy (i podobne szkółki piłkarskie dla dzieci) | edukacja/sport / franczyza | ~100 lokalizacji (franczyzawpolsce.pl) | 🔶 do weryfikacji — sieci szkółek często mają miejskie podstrony centralne | brak publicznego e-maila | brak danych | **8 → A** | Duża liczba miast; kąt: „jeden szablon, wersja dla każdego miasta”, rozliczenie per wdrożenie. |
-| 29 | Biesiadowo | gastronomia / franczyza | **119 lokali**, wszystkie franczyzowe (horecatrends, dane 2020 — do aktualizacji) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **9 → A** | 119 restauracji z lokalną konkurencją o dostawę. Kąt identyczny jak Da Grasso: lokalny landing + menu + zamówienia. |
-| 30 | Olimp (jedzenie na wagę) | gastronomia / franczyza | 90 placówek (58 franczyzowych) (horecatrends, 2020 — do aktualizacji) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **8 → A** | Lokalne strony restauracji i catering; przy 90 lokalizacjach skala pozwala sprzedawać pakietami po 10 wdrożeń. |
-| 31 | Novisa Development | deweloper | **36 inwestycji w sprzedaży** (rynekpierwotny.pl) | 🔶 do weryfikacji — deweloperzy zwykle mają podstrony inwestycji na domenie głównej | brak publicznego e-maila | brak danych (dział sprzedaży/marketingu) | **8 → A** | Deweloper z 36 inwestycjami = 36 potencjalnych landingów (osobne domeny/landingi kampanijne pod kampanie Meta/Google Ads), plus serwis po sprzedaży. |
-| 32 | Trust Investment | deweloper | **16 inwestycji w sprzedaży** (Kielce) (rynekpierwotny.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **8 → A** | Średniej wielkości deweloper bez wewnętrznego webdevu: landing per inwestycja + obsługa techniczna i aktualizacje (zmiany etapów, cenniki). |
-| 33 | EKOPARK | deweloper | **12 inwestycji** (Kraków) (rynekpierwotny.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **8 → A** | 12 osiedli = 12 landingów sprzedażowych; przy deweloperach liczy się szybkość (nowa inwestycja = strona „wczoraj”). |
-| 34 | Home Invest | deweloper | **11 inwestycji** (Warszawa) (rynekpierwotny.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **8 → A** | Mały/mid deweloper warszawski: pakiet „landing inwestycji + kampania”, powtarzalny przy każdej nowej inwestycji. |
-| 35 | BUD-RIM Development | deweloper | **10 inwestycji** (Piaseczno/Chyliczki) (rynekpierwotny.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **8 → A** | Segment domów w zabudowie szeregowej — potrzebne osobne strony dla każdego etapu/osiedla. |
-| 36 | JDM Deweloper | deweloper | **10 inwestycji** (Piaseczno) (rynekpierwotny.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **8 → A** | Podwarszawski rynek = wysoka konkurencja o klienta, strony inwestycji + Google Ads. |
-| 37 | Invest Komfort | deweloper | **27 inwestycji historycznie**, ~3000 lokali (noweinwestycje.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **8 → A** | Trójmiejski deweloper premium: każda inwestycja to osobny projekt sprzedażowy → landingi + serwis w abonamencie. |
-| 38 | Victoria Dom | deweloper (GPW) | **14 inwestycji w sprzedaży**, 1365 lokali w 2025 (OnGeo, rynekpierwotny.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **7 → A** | Dużo inwestycji w Warszawie/okolicach, rosnąca sprzedaż (+35% r/r) = budżet marketingowy; kąt: landingi etapów i osiedli. |
-| 39 | Tree Development Group | deweloper | **9 inwestycji** (Łódź) (rynekpierwotny.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **7 → A** | Łódź = tańszy rynek, mniejsze budżety marketingowe → atrakcyjna cena 999–2000 zł za landing. |
-| 40 | Grupa Moderator | deweloper | **8 inwestycji** (Bydgoszcz) (rynekpierwotny.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **7 → A** | Regionalny deweloper z 8 inwestycjami: pakiet „strony inwestycji” + obsługa zmian treści. |
-| 41 | Budlex | deweloper | **7 inwestycji** (Warszawa) (rynekpierwotny.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **7 → A** | Pozwolenia/serwis sprzedażowy: strony pod etapy + aktualizacje (obsługa 199–299 zł/mies.). |
-| 42 | Sekro Nieruchomości | zarządca nieruchomości | #1 w rankingu zarządców, Warszawa (prawnikwewspolnocie.pl) | ✅ jedna strona firmowa | brak publicznego e-maila | brak danych | **9 → A** | Wysoka ocena = dużo nowych wspólnot z polecenia → potrzebne strony dla nowych budynków i panel informacyjny dla mieszkańców. |
-| 43 | nKrak Zarządzanie Nieruchomościami | zarządca nieruchomości | top 3 rankingu, Kraków (prawnikwewspolnocie.pl) | ✅ jedna strona firmowa | brak publicznego e-maila | brak danych | **9 → A** | Kraków, rosnące osiedla: strony wspólnot/developerskich budynków + lokalne SEO. |
-| 44 | JMK Kosmaczewscy Nieruchomości | zarządca nieruchomości | top 5 rankingu, Poznań (prawnikwewspolnocie.pl) | ✅ jedna strona firmowa | brak publicznego e-maila | brak danych | **9 → A** | 47 ocen = aktywna baza klientów. Kąt: strony wspólnot + komunikacja z mieszkańcami (elektroniczne tablice ogłoszeń). |
-| 45 | Parvis / Egendom (Wrocław) | zarządca nieruchomości | top 8 rankingu (Wrocław) (prawnikwewspolnocie.pl) | ✅ jedna strona firmowa | brak publicznego e-maila | brak danych | **8 → A** | Wrocław: dwóch zarządców z podobną potrzebą → idealny klient na „drugą wersję szablonu”. |
-| 46 | ADMIN Nieruchomości / Janasowie / Graden | zarządca nieruchomości | 🔶 skala do potwierdzenia (rankingi regionalne) | ✅ jedna strona firmowa | brak publicznego e-maila | brak danych | **8 → A** | Trzy firmy, ten sam pakiet: strony wspólnot + lokalne SEO + obsługa techniczna. Wysoka powtarzalność sprzedaży. |
-| 47 | Grupa Cichy-Zasada | motoryzacja / grupa dealerska (wiele marek) | **32+ salony, 11 miast, 7 marek, 54 autoryzacje serwisowe** (cichy-zasada.pl) | 🔶 do weryfikacji — **uwaga:** markowe salony często dostają strony z platform producenta/importerskich | brak publicznego e-maila | brak danych (dział marketingu centrali) | **8 → A (ryzyko)** | Największa grupa dealerska w PL: landingi per salon/marka/serwis („serwis VW <miasto>”) i strony akcji. Weryfikuj, czy nie korzystają z platform OEM. |
-| 48 | Grupa Plichta | motoryzacja / grupa dealerska (wiele marek) | **25 salonów**, 10 marek, Pomorze (moto3m.pl) | 🔶 do weryfikacji (jak wyżej) | brak publicznego e-maila | brak danych | **7 → A** | 25 salonów = 25 stron lokalnych + strony usług serwisowych (blacharstwo, lakiernictwo) w SEO lokalnym. |
-| 49 | Grupa Bemo | motoryzacja / grupa dealerska (wiele marek) | **17 salonów** w 7 miastach (samochody.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **7 → A** | Multi-brand (Peugeot, Citroën, Volvo, Mercedes, Mazda, Ford, Hyundai) — naturalne strony per marka/lokalizacja. |
-| 50 | Grupa PTH / Auto Spektrum / Grupa Lellek | motoryzacja / grupy dealerskie | 17 / 14 / 16 salonów (lista TOP50 2024 — s-trojmiasto.pl) | 🔶 do weryfikacji | brak publicznego e-maila | brak danych | **7 → A** | Trzy grupy z 14–17 salonami: sprzedaż tego samego pakietu (per salon) po krótkich negocjacjach z właścicielem. |
-| 51 | Semgence | agencja (white-label SEO/PPC) | 20+ partnerów agencyjnych, od 2006 (semgence.pl) | n/d — nie tworzą stron (na podstawie oferty) | brak publicznego e-maila (formularz na stronie białej etykiety) | brak danych | **9 → A** | Odwrotny model white-label: oni sprzedają SEO/PPC pod marką agencji — Ty możesz być ich webdevem dla tych samych klientów. Idealny pierwszy krok w kanał partnerski. |
-| 52 | SEOGods / Sunrise System / Funkymedia / iCEA Group | agencje (SEO lokalne) | 🔶 brak danych o skali; agencje wymieniane w zestawieniu lokalnego SEO 2026 (widoczni.com) | 🔶 **wymaga weryfikacji, czy mają własny webdev** | brak publicznych e-maili w źródle | brak danych | **7 → A (warunkowo)** | Jeśli nie robią stron (część robi tylko wizytówki/SEO), kupią white-label webdev pod swoich klientów lokalnych. Pierwsza weryfikacja: zakładka „usługi” — brak „tworzenie stron” = lead, jest = odrzuć. |
-
-\* Kodano Optyk, mimo wysokiego score, ma dodatkowe ryzyko wykluczające (własny e-commerce/dział IT). Jeśli chcesz być maksymalnie ostry wobec Twojego filtra — traktuj jak ODRZUCONY.
-\** Pozycja 28: nazwa „Football Academy” funkcjonuje jako sieć szkółek (~100 lokalizacji, franczyzawpolsce.pl), ale nie potwierdziłem aktualnej liczby lokalizacji i podmiotu zarządzającego marką — przed kontaktem zweryfikuj.
+1. **DepilConcept** — 122 salony i 20 kolejnych w przygotowaniu, wszystkie w miastach 40 tys.+, czyli dokładnie tam, gdzie działa fraza „depilacja laserowa [miasto]". To jedna decyzja centralna (franczyzodawca) przy 100+ odbiorcach strony. Ryzyko: przy każdym salonie widnieje własny e-mail i link „Strona www" — przed kontaktem trzeba potwierdzić, czy salony nie mają już odrębnych stron, bo wtedy kąt spada (i zgodnie z Twoją zasadą firmę odrzucamy).
+2. **Orient Massage + Thai Organic** — 32 salony masażu w miastach od 15 tys. mieszkańców i jasny plan 50–60 placówek. Masaż to wzorcowa usługa lokalna: nikt nie szuka „masażu w Polsce", wszyscy szukają „masażu w Pszczynie". Właścicielka (Martyna Buchalska) publicznie opowiada o rozwoju sieci, więc argument „każdy salon widoczny lokalnie" trafia w jej cel.
+3. **mobileEnglish** — 75 oddziałów franczyzowych szkoły językowej dla dzieci, gdzie decyzję zakupową podejmuje rodzic szukający zajęć blisko domu. Fraza „angielski dla dzieci [miasto/dzielnica]" ma wysoką intencję i niską konkurencję w małych miastach. Przy 75 lokalizacjach to zamówienie na dziesiątki landingów w jednym wdrożeniu.
+4. **Depilacja.pl** — 54 salony własne oznaczają, że decyzja o stronach lokalnych może zapaść bez zgody franczyzobiorców — to najkrótsza ścieżka sprzedaży w tym zestawieniu. Grupa deklaruje ponad 200 salonów łącznie, więc jest też przestrzeń na wdrożenie etapowe.
+5. **Yasumi Instytuty** — 148 salonów, z czego 138 prowadzą franczyzobiorcy, którzy zwykle nie mają budżetu ani kompetencji na własną stronę. Franczyzodawca kupuje więc nie „strony", a „widoczność sieci w 138 miastach", co łatwiej uzasadnić wewnętrznie. Nowe otwarcia zaplanowane na 2026 dają naturalny pretekst do rozmowy.
+6. **Dentity** — 122 gabinety w 22 centrach, model świadomie zdecentralizowany: marki regionalne zachowują własne strony. Luka jest więc w spójności i jakości local SEO (większość stron to stare wizytówki bez podstron miast). Sprzedajemy standaryzację, nie „zabranie" stron; warunek: potwierdzić, które marki nie mają podstron per miasto.
+7. **Early Stage** — 850 szkół to największy wolumen lokalizacji w całym zestawieniu, a franczyzobiorcy to mikrofirmy bez działów marketingu. Tu nie sprzedajemy pojedynczych stron, a dostawę hurtową (np. 50 landingów kwartalnie) z jednym szablonem. Warto zacząć od rozmowy o jednym regionie, żeby pokazać efekt.
+8. **Helen Doron English Polska** — 220+ oddziałów i marka dla rodziców, którzy porównują szkoły lokalnie, dzielnica po dzielnicy. Argument konkurencyjny jest twardy: jeśli inna sieć językowa zainwestuje w landingi per placówka, Helen Doron straci widoczność w tych samych miastach. Kontakt: centrala (decydent do ustalenia).
+9. **AMAKids** — 387 oddziałów zajęć dla dzieci, wiele w mniejszych miejscowościach, gdzie konkurencja w Google jest śladowa. Wystarczy jeden szablon i lokalne warianty, żeby zdominować frazy „zajęcia [typ] [miasto]". Skala 387 stron to największy potencjał sprzedażowy na liście.
+10. **Moose Centrum Języków Obcych** — 107 oddziałów, w tym 35 własnych: na własnych można wdrożyć pilotaż bez oporu franczyzobiorców, a sukces (telefony z lokalnych fraz) staje się argumentem w rozmowie z resztą sieci. Dane o sieci pochodzą z 2023 i wymagają odświeżenia przed kontaktem.
 
 ---
 
-## 3. Firmy ODRZUCONE (i dokładny powód)
+## 3. Backup — kolejne 30 leadów
 
-| Firma | Model | Powód odrzucenia | Status weryfikacji |
+Pozycje 21–50. Kolumna „typ" rozdziela: **L** = w profilu lokalnych landingów, **PP** = poza profilem (B2B / brak konsumenckiej intencji lokalnej — zachowane, bo mogą wrócić jako osobny model sprzedaży lub kanał partnerski).
+
+| # | Firma | Typ | Skala | Decydent | Score | Uwaga |
+|---|---|---|---|---|---|---|
+| 21 | Studio Synergy (EMS) | L | sieć butikowych studiów EMS od 2015 | brak danych | 7 → A | mają landingi per miasto, ale **dla kandydatów na franczyzę** — sprawdzić, czy studia mają strony dla klientów |
+| 22 | Fizjoacademy | L | 4 gabinety własne + 1 franczyza (03.2026) + 100+ placówek w programie mentoringowym | brak danych (biuro@fizjoacademy.pl, 536 071 754) | 7 → A | program mentoringowy ≠ jednolity brand; 100+ gabinetów to dobry wolumen, ale franczyzobiorcy zachowują własne marki |
+| 23 | Galeria Uśmiechu / Uśmiechnij Mi Się (Dentity) | L | 26 gabinetów (Nowy Sącz, Kraków, Gliwice) + 7 gabinetów (Oświęcim, Jaworzno) | Grzegorz Struzik (Dentity) | 6 → B | ❌ marki mają **podstrony per miasto** (galeriausmiechu.pl/gliwice) → niski potencjał; kąt tylko na ujednolicenie istniejących podstron |
+| 24 | Perfect Look Clinic | L | 86 salonów (13 własnych + 67 franczyzowych + 6 w przygotowaniu) | Szymon Pankowski (dyr. operacyjny), Damian Ozga (współwłaściciel) | 6 → B | ❌ centrala częściowo pokrywa potrzeby (podstrony /kliniki/<miasto>) → jedyny kąt: strony własne multifranczyzobiorców (4–6 salonów w minisieci) |
+| 25 | KIDS&Co | L | 35 placówek | brak danych | 8 → A | żłobki/przedszkola — bardzo lokalne frazy („żłobek [dzielnica]"), ale decyzje często po stronie placówek |
+| 26 | SOCATOTS Polska | L | 2 własne + 70 franczyzowych | brak danych | 8 → A | zajęcia sportowe dla dzieci, frazy lokalne w miastach średnich |
+| 27 | British School | L | 40–60+ oddziałów franczyzowych | brak danych | 8 → A | kursy dla dorosłych i firm — intencja lokalna średnia, ale wolumen wysoki |
+| 28 | Mała Lingua | L | 40+ partnerów franczyzowych w ~200 punktach | brak danych | 9 → A | punkty często w przedszkolach/szkołach → sprawdzić, które mają publiczne adresy do promocji lokalnej |
+| 29 | SPW Szkoła Pamięci | L | ~100 oddziałów (dane 2016 — odświeżyć) | Tomasz Wachowiak — dyrektor (2024) | 8 → A | kursy technik pamięci dla dzieci; dane o liczbie oddziałów wymagają potwierdzenia |
+| 30 | Football Academy (i podobne szkółki piłkarskie) | L | ~100 lokalizacji | brak danych | 8 → A | „piłka nożna dla dzieci [miasto]" — silna intencja; potwierdzić podmiot i aktualność nazwy |
+| 31 | ProfiAuto Serwis | L (kanał) | 3500 warsztatów (+16% r/r) | brak danych | 9 → A | **inny model sprzedaży**: warsztaty to niezależne firmy w sieci partnerskiej → sprzedajemy sieci „strony dla członków", nie jednej firmie |
+| 32 | Q Service / Compet / S-Plus (sieci warsztatów) | L (kanał) | ~600 / 518 / 700+ warsztatów | brak danych | 8 → A | jak wyżej — duży wolumen, ale decyzja po stronie centrali sieci partnerskiej |
+| 33 | Grupa Cichy-Zasada | L | 32+ salony, 11 miast, 7 marek | brak danych (marketing centrali) | 8 → A | „serwis [marka] [miasto]" ma intencję lokalną, ale ryzyko: szablony OEM i wewnętrzny marketing |
+| 34 | Grupa Plichta | L | 25 salonów, 10 marek | brak danych | 7 → A | jak wyżej |
+| 35 | Grupa Bemo | L | 17 salonów w 7 miastach | brak danych | 7 → A | jak wyżej |
+| 36 | Grupa PTH / Auto Spektrum / Grupa Lellek | L | 17 / 14 / 16 salonów | brak danych | 7 → A | jak wyżej |
+| 37 | Grupa Biurowiec | PP | 4473+ zarządzanych nieruchomości | brak danych | 11 → A | brak konsumenckiej intencji lokalnej (B2B: wspólnoty, zarządcy) → zostaw na inny model rozmowy |
+| 38 | Status Nieruchomości | PP | 500+ wspólnot (od 1999) | brak danych | 11 → A | jak wyżej |
+| 39 | Nawigator Nieruchomości | PP | 250 wspólnot, 150+ pracowników | brak danych | 10 → A | jak wyżej |
+| 40 | Avente | PP | 140 wspólnot, 20 lat | brak danych | 10 → A | jak wyżej |
+| 41 | Ga-Mi II Zarządzanie Nieruchomościami | PP | 160+ wspólnot | brak danych | 10 → A | jak wyżej |
+| 42 | ZNDOM Zarządzanie Nieruchomościami | PP | 140+ wspólnot | brak danych | 10 → A | jak wyżej |
+| 43 | Sekro Nieruchomości | PP | #1 w rankingu zarządców | brak danych | 9 → A | jak wyżej |
+| 44 | nKrak Zarządzanie Nieruchomościami | PP | top 3 rankingu zarządców | brak danych | 9 → A | jak wyżej |
+| 45 | JMK Kosmaczewscy Nieruchomości | PP | top 5 rankingu | brak danych | 9 → A | jak wyżej |
+| 46 | Parvis / Egendom | PP | top 8 rankingu (Wrocław) | brak danych | 8 → A | jak wyżej |
+| 47 | ADMIN Nieruchomości / Janasowie / Graden | PP | rankingi regionalne (potwierdzić) | brak danych | 8 → A | jak wyżej |
+| 48 | Novisa Development | PP | 36 inwestycji | brak danych | 8 → A | deweloper: landingi per inwestycja, nie per „miasto usługi" |
+| 49 | Trust Investment | PP | 16 inwestycji | brak danych | 8 → A | jak wyżej |
+| 50 | EKOPARK | PP | 12 inwestycji | brak danych | 8 → A | jak wyżej |
+
+---
+
+## 4. Poza TOP i backupem — zachowane dla innych modeli sprzedaży
+
+Te firmy **nie spełniają Bramki A** (klient końcowy nie wpisuje w Google „usługa + miasto" i nie zapisuje się do konkretnego punktu). Nie usuwam ich z researchu, bo mogą wrócić jako osobny model rozmowy (B2B lub kanał partnerski), ale nie konkurują o miejsca w TOP 20.
+
+| Firma / grupa | Skala | Dlaczego poza TOP | Co z tym zrobić |
 |---|---|---|---|
-| **Studio Figura** | sieć gabinetów (370–420 w PL) | Centrala prowadzi strony gabinetów na subdomenach marki — potwierdzony przykład: `zielonagora.studio-figura.pl/kontakt/`. To DOKŁADNIE produkt, który chcesz sprzedać → nie ma czego wdrażać. | ✅ potwierdzone 1 źródłem + wzorzec subdomen; zalecane 1 potwierdzenie telefoniczne |
-| **GO4Robot** | edukacja / franczyza (30 miast, 200+ placówek) | Centrala utrzymuje podstrony miast (`go4robot.pl/lodz`, `/szczecin`, `/gdansk`) + panel rodzica i sklep. Lokalna obecność online już rozwiązana centralnie. | ✅ potwierdzone (struktura serwisu) |
-| **Kodano Optyk** | optyka, 130+ salonów | Podstrony salonów istnieją centralnie; spółka prowadzi własny e-commerce i zaawansowany marketing (131 mln zł przychodów, koncept KODANO 2.0) → ryzyko „profesjonalnego własnego działu IT/webdev”, mała szansa na wejście małego wykonawcy. | ✅ potwierdzone dane; ocena ryzyka — subiektywna |
-| **Widoczni (widzialni.pl / widoczni.com)** | agencja SEO/SEM | W ofercie ma „tworzenie stron WWW” → nie jest klientem na white-label webdev (konkuruje o to samo zlecenie). | ✅ potwierdzone z opisu usług |
-| **Agencja KS (ks.pl)** | agencja SEO/SEM | Oferuje tworzenie stron i sklepów → ma własne kompetencje webdev. | ✅ potwierdzone |
-| **Studio A7** | agencja SEO/Google Ads | W ofercie „projektowanie stron WWW” i sklepy → odpada jako klient white-label. | ✅ potwierdzone |
-| **Delante** | agencja SEO (Kraków) | Wprost sprzedaje „Website Development for Local Services — separate pages for each location” → to Twój konkurent w tym segmencie, nie klient. | ✅ potwierdzone (strona usługi) |
-| **Bluerank / Sempai / Cyrek Digital / Artgeit (Artefakt)** | duże agencje SEO | Obsługa korporacji/e-commerce, własne zespoły deweloperskie i analityczne → mało realne wejście małego podwykonawcy. | 🔶 ocena na podstawie skali/pozycjonowania |
-| **Dr Irena Eris — Kosmetyczne Instytuty** | beauty, 23 franczyzy | Marka luksusowa z dużym własnym marketingiem i działem digital; brak realnej ścieżki dla małego wykonawcy. | 🔶 ocena ryzyka |
-| **Medicover Stomatologia / LUX MED Stomatologia / Enel-Med Stomatologia** | sieci stomatologiczne (190+ gabinetów) | Duże grupy medyczne z własnymi działami marketingu i agencjami; centralne systemy. | ✅ potwierdzona skala; 🔶 ocena dostępu |
-| **ProfiAuto Serwis (3500 warsztatów), Q Service Castrol (600), Compet (518)** | sieci warsztatów | Organizatorzy sieci oferują warsztatom własne wsparcie promocyjne i marketingowe, a warsztaty to niezależni przedsiębiorcy (rozproszona decyzja) → brak jednego kontraktu na 10+ stron. | 🔶 DO WERYFIKACJI (czy wsparcie obejmuje strony — źródła mówią o „wsparciu promocyjnym/marketingowym”) |
-| **Benefit Systems (Zdrofit, Fitness Academy, Calypso, Fabryka Formy)** | fitness, ~290 klubów | Korporacja z własną aplikacją i marketingiem centralnym; brak sensownej ścieżki dla małego wykonawcy. | ✅ potwierdzona skala |
-| **Polski Holding Hotelowy** | hotele, 50+ obiektów | Spółka z udziałem Skarbu Państwa, zakupy w trybie przetargowym → bariera wejścia. | ✅ potwierdzony charakter właścicielski |
-| **Dom Development, Atal, Murapol, Robyg, Develia, Archicom, Echo Investment** | deweloperzy | Największe firmy z własnymi działami marketingu i stałymi agencjami; przetargi i procedury. | ✅ potwierdzona skala |
-| **McDonald's, Pizza Hut, Subway, Żabka, Eurocash (abc, Delikatesy Centrum), Dino, Biedronka** | gastro/handel | Globalne/centralne systemy marketingowe, platformy zamawiające, agencje. | ✅ potwierdzona skala |
-| **RE/MAX Polska** | nieruchomości, franczyza | Franczyzobiorcy obsługiwani centralnymi narzędziami marketingowymi marki — wysokie ryzyko, że odpowiedź brzmi „mamy to z centrali”. | 🔶 DO WERYFIKACJI — nie znalazłem jednoznacznego potwierdzenia |
-| **KIDS&Co.** | przedszkola/żłobki, 34–35 placówek | Przejęte przez szwedzką grupę AcadeMedia (08.2026) → decyzje zapadają w strukturze międzynarodowej. | ✅ potwierdzone przejęcie |
-| **Kliniki weterynaryjne: Edina Vetcare Group** | weterynaria, docelowo 200 placówek | Grupa budowana przez TDJ Equity, konsolidacja pod jednolitym systemem i własnym marketingiem inwestora — wejście małego wykonawcy bardzo mało realne. | 🔶 ocena ryzyka (kampania z 2021–2022, brak aktualnych danych o obecnej skali) |
-| **Perfect Look Clinic** | beauty, ~80 salonów | **Warunkowo odrzucony**: centrala publikuje podstrony `/kliniki/<miasto>` — jeśli są to pełne landingi z treścią, to lead do odrzucenia; sprzedaż możliwa tylko na strony własne multifranczyzobiorców. | 🔶 DO WERYFIKACJI (kluczowa decyzja przy pierwszym kontakcie) |
+| Novisa, Trust Investment, EKOPARK, Home Invest, BUD-RIM, JDM, Invest Komfort, Victoria Dom, Tree Development, Grupa Moderator, Budlex | 7–36 inwestycji każdy | deweloper sprzedaje konkretną inwestycję; „strona wizytówkowa per miasto" nie jest jego produktem | osobny wątek: landing per inwestycja (inny pitch, inny cykl sprzedaży) |
+| Status, Grupa Biurowiec, Nawigator, Avente, Ga-Mi II, ZNDOM, Sekro, nKrak, JMK, Parvis, ADMIN | 140–4473 obiektów | zarządca wspólnot nie ma klienta szukającego go lokalnie — kontakt wygrywa przetarg, nie Google | wrócić, gdyby Velto weszło w strony per wspólnota/osiedle jako projekt B2B |
+| PROFIT system, ARSS | 200–300+ opracowanych konceptów franczyzowych | konsultanci/franczyzodawcy — nie mają własnych lokalizacji | **kanał partnerski**: mogą zlecać Velto strony dla swoich franczyzobiorców |
+| Semgence (white-label SEO/PPC), SEOGods / Sunrise System / Funkymedia / iCEA Group | 20+ agencji partnerskich (Semgence) | to podwykonawcy/wykonawcy marketingu, nie sieci lokalizacji | **kanał white-label**: Velto jako „zaplecze webdev" pod ich klientów lokalnych (Semgence już sprzedaje białe etykiety — odwrotny kierunek, ale pokazuje, że popyt istnieje) |
+| Delante | agencja SEO | konkurent (wprost reklamuje „separate pages for each location") | benchmarking, nie lead |
 
 ---
 
-## 4. TRZY NAJLEPSZE SEGMENTY DO DALSZEGO PROSPECTINGU
+## 5. ODRZUCONE — z dokładnym powodem
 
-### SEGMENT 1 — Sieci usługowe franczyzowe w ekspansji (beauty, wellness, fitness, edukacja dzieci)
+| Firma | Skala | Powód odrzucenia |
+|---|---|---|
+| **Da Grasso** | ~190 lokali, cel ~400 | ❌ **centralny kanał transakcji**: jedna strona główna obsługuje wszystkie lokalizacje i zamówienia; lokalna strona nie pełni funkcji sprzedażowej (Twoja korekta, zastosowana jako zasada) |
+| **Biesiadowo** | 119 lokali franczyzowych | ❌ potwierdzone w źródle: franczyzobiorca dostaje „darmową integrację z aplikacją do zamówień online na biesiadowo.pl i zjemy.co", a restauracje mają **centralne podstrony** per lokal (biesiadowo.pl/z-stalowa-wola-ul-okulickiego) → −5, centrala już to zapewnia |
+| **Studio Figura** | 420 gabinetów | ❌ hipoteza „tylko Google My Maps, brak stron" **obalona** — istnieją subdomeny per gabinet (np. zielonagora.studio-figura.pl) |
+| **Kodano Optyk** | 130+ salonów (plan 170) | ❌ centralne strony per salon + własny e-commerce i dział IT → firma już zapewnia to, co sprzedaje Velto |
+| **GO4Robot** | sieć zajęć robotyki | ❌ centralne podstrony miast + panel rodzica — potrzeba pokryta centralnie |
+| **Delante** | agencja SEO | konkurent — sam sprzedaje „separate pages for each location" |
 
-**Dlaczego:**
-- To jedyny segment, gdzie w jednej firmie łączy się: 30–200 lokalizacji, realna potrzeba lokalnego SEO (klient szuka usługi „w moim mieście”), decyzja centralna (1 rozmowa = wiele wdrożeń) i franczyzobiorcy, którzy chcą własnych stron, ale nie mają budżetu agencji.
-- Firmy te rosną (DepilConcept +20 salonów w przygotowaniu, Yasumi +100 plan, Kodano +50/rok, Gentlemen Barber cel 50, mobilne szkoły językowe 5–7 otwarć/rok), więc każde otwarcie = nowe zlecenie wdrożeniowe.
+**Przeniesione z odrzuconych z powrotem do weryfikacji (bo nie mam dowodu, a Twoja zasada zabrania zgadywania):**
+- **Olimp** (~90 placówek, dane 2020) — gastronomia; nie potwierdziłem, czy obsługa klienta jest w pełni centralna ani czy placówki mają własne strony. Status: 🔶 DO WERYFIKACJI, wróci do odrzuconych tylko z dowodem.
 
-**Jaki problem rozwiązujemy:**
-- Sieć ma jedną stronę centralną i mapę lokalizacji; franczyzobiorcy nie mają stron lokalnych → tracą klientów na rzecz lokalnej konkurencji, która wyskakuje wyżej w Google Maps i w wynikach „usługa + miasto”. Centrala nie ma zasobów, by zrobić 100+ stron ręcznie.
+---
 
-**Co sprzedajemy:**
-- „Pakiet sieciowy”: 1 szablon + wersje lokalne (subdomeny lub domeny franczyzobiorców), wdrożenia falami po 10 wdrożeń, lokalne treści (NAP, cennik, zespół, mapa), potem obsługa techniczna 199–299 zł/mies. per lokalizacja albo jeden abonament dla sieci.
+## 6. TRZY NAJLEPSZE SEGMENTY (pod lokalne landing page + SEO lokalne)
 
-**Kto jest decydentem:**
-- Franchise Manager / menedżer ds. rozwoju sieci (np. Kamil Miciałkiewicz — DepilConcept), COO (Szymon Pankowski — Perfect Look Clinic), właściciel sieci (Jakub Midel — mobileEnglish, Martyna Buchalska — Orient Massage), Head of Marketing centrali.
+### SEGMENT 1 — Franczyzy usług osobistych: masaż, depilacja, beauty, fryzjer
 
-**Jakiego typu firmy szukać:**
-- 30+ lokalizacji, model franczyzowy lub własny z ekspansją, brak własnego działu IT/webdev, oferta wymienialna geograficznie (depilacja, paznokcie, fryzjer, EMS, szkoły językowe, szkółki sportowe, robotyka, gabinety fizjoterapii).
-
-**Przykładowe zapytania Google:**
-- `franczyza sieć salonów "liczba salonów" 2026 nowe lokalizacje`
-- `"otwarcie salonu" franczyza beauty 2026 Polska`
-- `"planujemy otwarcie" OR "celujemy w" placówek sieć beauty/edukacja`
-- `site:franczyzawpolsce.pl "rozwój sieci" 2026`
-- `"znajdź salon" franczyza -"znajdź gabinet" intitle:franczyza`
-
-**Przykładowe zapytania LinkedIn:**
-- `"Franchise Manager" Poland beauty OR education`
-- `"menedżer ds. rozwoju sieci" franczyza`
-- `"dyrektor operacyjny" sieć salonów Polska`
-- `"Head of Marketing" franchise Poland 30+ locations`
+**Dlaczego:** najwyższa lokalna intencja zakupowa („masaż Pszczyna Dolny", „depilacja laserowa Rzeszów") i setki punktów w miastach 15–100 tys. mieszkańców. Franczyzobiorcy to mikrofirmy bez budżetu na strony, więc decyzja pada centralnie.
+**Problem klienta:** franczyzodawca ma 100+ lokalizacji, ale w Google widoczny jest tylko jako marka ogólnopolska; poszczególne salony nie istnieją w wynikach, a ruch trafia do Booksy/Znany Lekarz albo do konkurencji pojedynczych salonów.
+**Co sprzedajemy:** jeden szablon → N landingów (miasto w H1/tytule/treści, mapa, cennik lokalny, zespół, rezerwacja), hosting, domena/subdomena, wdrożenia paczkami (10–50 szt.), 199–299 zł/mies. za utrzymanie i aktualizacje, opcja białej etykiety dla franczyzodawcy.
+**Decydent:** franczyzodawca — właściciel/CEO, dyrektor ds. rozwoju sieci, menedżer franczyzy, marketing centrali.
+**Typ firm:** DepilConcept (122), Yasumi (148), Depilacja.pl (62), Samui Spa (12), Gentlemen Barber Shop (19), Trendy Hair Fashion (70), Haircut Express (30+), Perfect Look (86, warunkowo), KIDS&Co, Fizjoacademy.
+**Przykładowe zapytania Google:** „masaż Pszczyna", „masaż tajski Wrocław Krzyki", „depilacja laserowa Rzeszów", „salon kosmetyczny Kalisz", „barber Poznań Jeżyce", „fryzjer Siedlce".
+**Przykładowe zapytania LinkedIn:** `"franczyza" masaż Poland` → menedżer ds. rozwoju sieci · `"dyrektor operacyjny" salon kosmetyczny` · `"network development manager" beauty Poland` · `"franchise manager" hair salon`.
 
 **Przykładowy cold e-mail:**
-> Temat: 120 lokalnych stron dla sieci [FIRMA] — jeden szablon, wdrożenia falami
+> Temat: 122 salony DepilConcept — w Google widać tylko markę, nie salony
 >
 > Dzień dobry,
->
-> widzę, że [FIRMA] ma już [X] salonów w Polsce i kolejne w przygotowaniu. Sprawdziłem Państwa stronę: lokalizacje są na wspólnej mapie, ale pojedyncze gabinety nie mają własnych stron, na których klient z [miasto] trafiłby prosto do swojego salonu („[usługa] [miasto]”).
->
-> Robimy to systemowo: przygotowujemy JEDEN szablon, a następnie wdrażamy jego lokalne wersje – po 10 lokalizacji w każdej turze, z lokalnym tekstem, cennikiem, mapą i danymi. Koszt pojedynczej lokalnej wersji to 999–2000 zł, a po wdrożeniu możemy przejąć hosting, SSL, aktualizacje i drobne zmiany za 199–299 zł/mies. od lokalizacji (lub jednym abonamentem dla sieci).
->
-> Efekt: 100+ dodatkowych wejść „[usługa] + miasto”, spójny wygląd sieci i mniej pracy dla centrali po każdym nowym otwarciu.
->
-> Czy mogę pokazać na krótkiej rozmowie, jak to wyglądałoby dla Waszej siatki salonów?
->
-> [Imię Nazwisko], Velto WebDesign, tel. [X]
+> sprawdziłem, jak sieć wypada na frazach typu „depilacja laserowa Rzeszów" — na pierwszym ekranie nie pojawia się żaden salon DepilConcept, a klientki szukają właśnie tak. Przy 122 lokalizacjach to 122 osobne zapytania miesięcznie, których nikt nie obsługuje.
+> Robię strony wizytówkowe dla pojedynczych placówek w jednym szablonie: podstrona lub domena z miastem, mapą, cennikiem i zapisem online. Jedna wersja dla sieci, wdrożenie paczkami, 999–2000 zł za lokalizację i 199–299 zł/mies. za hosting i aktualizacje. Możemy zacząć od 5 salonów i pokazać ruch.
+> Kamil Miciałkiewicz jest właściwą osobą do takiej rozmowy?
+> [podpis]
 
----
+### SEGMENT 2 — Sieci edukacyjne dla dzieci (językowe, sportowe, pływanie, matematyka)
 
-### SEGMENT 2 — Zarządcy nieruchomości i wspólnoty mieszkaniowe (100–4 500 obiektów)
-
-**Dlaczego:**
-- Zupełnie pomijany przez webdevów rynek: pojedynczy zarządca ma 140–4 473 nieruchomości, a w internecie jedną stronę firmową. Każda wspólnota/administrowany budynek to potencjalna osobna strona (ogłoszenia, harmonogram remontów, dokumenty, kontakt do opiekuna, dane do przelewów).
-- Konkurencja o kontrakt wspólnoty rozgrywa się lokalnie („zarządca wspólnoty [miasto]”, „administrator nieruchomości [dzielnica]”), a to frazy tanie i mało obstawione.
-- Firma jest mała/średnia (11–150 osób), decyzja u właściciela, brak wewnętrznych zdolności webowych.
-
-**Jaki problem rozwiązujemy:**
-- Zarządca nie ma jak komunikować się z mieszkańcami (ociągające się tablice, maile, dokumenty), a przy przetargu o wspólnotę nie pokaże profesjonalnej obsługi online. Brak stron dla poszczególnych nieruchomości = brak lokalnej widoczności.
-
-**Co sprzedajemy:**
-- Etap 1: „pakiet na start” — 5–20 stron wspólnot/osiedli w subdomenach lub podstronach `firma.pl/wspolnota-x` + SEO lokalne.
-- Etap 2: panele dla mieszkańców (ogłoszenia, dokumenty, zgłoszenia) i obsługa techniczna/hosting w abonamencie (199–299 zł/mies. per obiekt lub pakietowo — duża wartość kontraktu).
-- Etap 3: zarządzanie wieloma domenami/obiektami (jeśli zarządca przejmuje kolejne wspólnoty).
-
-**Kto jest decydentem:**
-- Właściciel (najczęściej jednoosobowo decyduje w firmach 10–50-osobowych), prezes zarządu, dyrektor operacyjny. W firmach topowych, które wymieniłem: **Status Nieruchomości, Sekro, ZNDOM, Avente, Grupa Biurowiec, Nawigator, Ga-Mi II**.
-
-**Jakiego typu firmy szukać:**
-- Zarządcy z 100+ wspólnotami, 10–150 pracowników, obecni w jednym mieście/aglomeracji, z jedną stroną firmową (bez stron obiektowych). Omijaj: spółdzielnie z własnym IT, TBSy/administracje publiczne (przetargi).
-
-**Przykładowe zapytania Google:**
-- `"zarządzamy ponad" wspólnoty mieszkaniowe zarządca` (z różną liczbą: 100, 150, 200, 300)
-- `zarządca nieruchomości "liczba wspólnot" ranking`
-- `"zarządzanie nieruchomościami" "wspólnoty mieszkaniowe" -serwis -tworzenie stron`
-- `"nasze osiedla" zarządca nieruchomości`
-- `intitle:zarządzanie nieruchomościami "kontakt" "wspólnot" miasto`
-
-**Przykładowe zapytania LinkedIn:**
-- `"zarządzanie nieruchomościami" owner Poland`
-- `"licencjonowany zarządca nieruchomości" CEO`
-- `"prezes" OR "właściciel" "zarządzanie nieruchomościami" miasto`
-- `"property manager" Poland residential communities`
+**Dlaczego:** rodzic szuka „angielski dla dzieci [miasto/dzielnica]" albo „nauka pływania Mokotów" — to zapytanie z natychmiastową intencją zapisu. Sieci mają po 70–850 placówek, w tym dużo w mniejszych miastach, gdzie konkurencja w Google jest słaba.
+**Problem klienta:** centralna strona ma jeden adres kontaktowy i ogólnopolską ofertę; rodzic z Pszczyny nie widzi „swojej" placówki. Oddziały nie mają osobnych stron, więc zapisy spadają przez brak widoczności, a nie przez brak miejsc.
+**Co sprzedajemy:** landing per oddział z zapisem na lekcję pokazową, cennikiem, kadrą, grafikiem; osobne wersje dla miast i dzielnic; strony dla franczyzobiorców pod marką sieci (white-label) lub pod ich marką.
+**Decydent:** dyrektor ds. rozwoju sieci, dział marketingu centrali, właściciel sieci; przy mniejszych sieciach — bezpośrednio franczyzodawca.
+**Typ firm:** Early Stage (850+), AMAKids (387), Helen Doron (220+), Moose (107), mobileEnglish (75), SOCATOTS (72), British School (40–60), Mała Lingua (~200 punktów), SPW (~100), Football Academy (~100), Hasten (14 lokalizacji), KIDS&Co (35).
+**Przykładowe zapytania Google:** „angielski dla dzieci Pszczyna", „nauka pływania Legionowo", „zajęcia robotyki dla dzieci Kielce", „żłobek Wola Warszawa", „piłka nożna dla dzieci Tychy".
+**Przykładowe zapytania LinkedIn:** `"network development" language school Poland` · `"dyrektor marketingu" szkoła językowa` · `"franchise manager" education Poland` · `"Head of Expansion"` edukacja.
 
 **Przykładowy cold e-mail:**
-> Temat: 140 wspólnot pod jedną domeną — strony dla nieruchomości, które administrujecie
+> Temat: 75 oddziałów mobileEnglish — rodzice w 75 miastach nie widzą Was w Google
 >
 > Dzień dobry,
->
-> zarządzacie Państwo ponad 140 wspólnotami, a w internecie widzę jedną stronę firmową — bez osobnych stron dla poszczególnych nieruchomości. W praktyce oznacza to, że mieszkaniec nie ma gdzie sprawdzić ogłoszeń, a przy przetargu o nową wspólnotę konkurujecie bez atutu „profesjonalnej obsługi online”.
->
-> Proponuję jeden szablon + osobne strony dla wybranych nieruchomości (na start 5–10): harmonogram remontów, ogłoszenia, dokumenty, kontakt do opiekuna, formularz zgłoszenia. Koszt wdrożenia to 999–2000 zł za obiekt, a po wdrożeniu przejmujemy hosting, domenę, SSL i aktualizacje w ramach 199–299 zł/mies. — czyli mniej niż jedna roboczogodzina pracownika biura.
->
-> Jeśli działa w Państwa okolicy kilku zarządców, ostatni argument w przetargu brzmi najczęściej: „my to pokazujemy mieszkańcom online”.
->
-> Ilu wspólnotom chcecie pokazać taką stronę w tym roku?
->
-> [Imię Nazwisko], Velto WebDesign
+> „angielski dla dzieci Pszczyna" to zapytanie, po którym rodzic zapisuje dziecko albo idzie do konkurencji. Dziś na taką frazę nie ma czego pokazać — wszystkie oddziały prowadzą do jednej strony sieci.
+> Proponuję osobny landing każdego oddziału w jednym szablonie: miasto w tytule, adres, kadra, grafik, formularz na lekcję pokazową. 999–2000 zł za stronę, 199–299 zł/mies. opieki, wdrożenie np. 20 placówek w pierwszym miesiącu.
+> Z kim powinienem o tym porozmawiać — Jakub Midel czy osoba z centrali odpowiedzialna za sieć?
+> [podpis]
 
----
+### SEGMENT 3 — Sieci usług zdrowotnych (stomatologia, fizjoterapia, weterynaria, optyka)
 
-### SEGMENT 3 — Średni deweloperzy z 7–40 inwestycjami (landing page per inwestycja)
-
-**Dlaczego:**
-- Jeden deweloper z 10 inwestycjami = 10 stron/landingów sprzedażowych, często na osobnych domenach (`osiedle-x.pl`), plus aktualizacje przy każdej zmianie etapu/cennika. Ten rynek ma też wysoką rotację dostawców, bo agencje liczą za duże budżety.
-- Rynek: w bazie jednego portalu jest 5 235 firm deweloperskich i 1 733 inwestycje w sprzedaży — ogromny rynek, w którym średni deweloper ma 7–40 inwestycji i mniejszy budżet niż giełdowa piątka.
-
-**Jaki problem rozwiązujemy:**
-- Deweloper potrzebuje natychmiast strony/landingu dla nowej inwestycji pod kampanie Meta/Google (rejestracja na zapisy, wizualizacje, harmonogram, formularz). Duże agencje nie schodzą do budżetu 1–2 tys. zł, a „wczoraj” jest standardem (wjazd inwestycji na rynek).
-- Dodatkowo inwestycje wygasają → potrzebne strony „sprzedane/oddane”, obsługa po sprzedaży i biura obsługi klienta.
-
-**Co sprzedajemy:**
-- Landing/strong dla każdej inwestycji (1 szablon + wersje per osiedle: 999–2000 zł), migracja po sprzedaży w prostą stronę „oddane”, obsługa techniczna i publikacja zmian 199–299 zł/mies.
-- Wersja dla grupy: jeden szablon dla marki dewelopera + wszystkie inwestycje w spójnym systemie, z możliwością podpięcia formularzy do CRM.
-
-**Kto jest decydentem:**
-- Właściciel/prezes (bezpośrednio nad marką), dyrektor marketingu, kierownik sprzedaży. W mniejszych firmach (7–20 inwestycji) decyzja jest jednoosobowa.
-
-**Jakiego typu firmy szukać:**
-- Deweloperzy z 7–40 inwestycjami: rynekpierwotny.pl (lista i liczba inwestycji w sprzedaży), noweinwestycje.pl, rankingi lokalne. Omijaj: giełdowych gigantów i spółki celowe niezależnych inwestorów bez działu marketingu.
-
-**Przykładowe zapytania Google:**
-- `site:rynekpierwotny.pl deweloper "inwestycje w sprzedaży" [miasto]`
-- `deweloper [miasto] osiedla 2026 "9 inwestycji" OR "10 inwestycji" OR "12 inwestycji"`
-- `"nasze inwestycje" deweloper [miasto] osiedle domy`
-- `deweloper [powiat] domy w zabudowie szeregowej osiedle`
-- `"wprowadzamy do sprzedaży" deweloper [miasto]`
-
-**Przykładowe zapytania LinkedIn:**
-- `"dyrektor marketingu" deweloper Poland`
-- `"kierownik sprzedaży" deweloper mieszkaniowy`
-- `"właściciel" deweloper [miasto]`
-- `"Head of Sales" residential developer Poland`
+**Dlaczego:** „dentysta [miasto]", „fizjoterapeuta [dzielnica]", „weterynarz [miasto]" to jedne z najwyżej konwertujących zapytań lokalnych. Rynek przechodzi konsolidację — powstają grupy z kilkudziesięcioma, a docelowo kilkuset placówkami (LuxVet, Edina, Dentity) — i te grupy nie mają spójnego local SEO.
+**Problem klienta:** po przejęciu grupa dostaje kilkanaście stron o różnej jakości, część bez podstron miast i bez danych strukturalnych; nowe centra nie mają żadnej strony, więc tracą pacjentów z lokalnego wyszukiwania.
+**Co sprzedajemy:** szablon landingów per placówka + spójny schemat `LocalBusiness`, godziny, kadra, zakres usług, mapowanie, kalendarz/„umów wizytę" oraz panel do aktualizacji dla placówek; przy grupach — migracja i standaryzacja starych stron.
+**Decydent:** CEO / COO grupy, dyrektor operacyjny, dział marketingu centrali; przy mniejszych markach — właściciel centrum.
+**Typ firm:** Dentity (122 gabinety/22 centra), LuxVet (8 → 150–200), Edina Vetcare (→200+), Galeria Uśmiechu (26), Uśmiechnij Mi Się (7), Fizjoacademy (4+1+100 mentoring), LUX MED Stomatologia (~190 — wykluczona jako wielka korporacja), Dent-a-Medical (dane 2016 — sprawdzić).
+**Przykładowe zapytania Google:** „dentysta Jaworzno", „implanty zębowe Nowy Sącz", „fizjoterapeuta Gliwice", „weterynarz Czechowice-Dziedzice", „okulista Piaseczno".
+**Przykładowe zapytania LinkedIn:** `"CEO" stomatologia sieć` · `"dyrektor operacyjny" klinika` · `"head of marketing" dental group Poland` · `"business development" veterinary Poland`.
 
 **Przykładowy cold e-mail:**
-> Temat: 12 inwestycji = 12 landingów. Wdrożenie nowego osiedla w 3 dni
+> Temat: 22 centra Dentity — sprawdziłem, jak wypadają lokalnie
 >
 > Dzień dobry,
->
-> prowadzicie Państwo obecnie [X] inwestycji w sprzedaży, a każda z nich potrzebuje własnej strony kampanijnej (Meta/Google). Duże agencje zaczynają rozmowę od 15–20 tys. zł i 6 tygodni — my mamy inny model: jeden sprawdzony szablon deweloperski + osobna wersja dla każdej inwestycji w 999–2000 zł i wdrożenie w kilka dni, także na osobnej domenie (`nazwa-osiedla.pl`) z formularzem zapisu i wizualizacjami.
->
-> Dodatkowo przejmujemy później cały serwis: hosting, SSL, podmiany cenników, nowe rzuty, komunikaty o etapach — 199–299 zł/mies. za inwestycję lub pakietowo za całą markę.
->
-> Mogę przygotować bezpłatny mockup pod jedną z Państwa obecnych inwestycji — wystarczy 15 minut rozmowy.
->
-> [Imię Nazwisko], Velto WebDesign
+> Grupa ma 122 gabinety w 19 miastach, ale część marek nie ma stron pod frazy typu „dentysta Jaworzno" — pacjent trafia wtedy do konkurencji z pierwszego ekranu. Model zdecentralizowany ma sens operacyjny, ale bez spójnych stron lokalnych traci najbardziej dochodowe zapytania.
+> Robię jeden szablon → N landingów per centrum (miasto, zespół, zakres, umów wizytę, dane strukturalne), z panelem, który centrum samo aktualizuje. 999–2000 zł od strony, 199–299 zł/mies. utrzymania, wdrożenie etapami.
+> Możemy zacząć na jednej marce i porównać ruch po 60 dniach. Od kogo zależy taka decyzja w Dentity?
+> [podpis]
+
+### BONUS — kanał partnerski (bez kampanii masowej)
+
+PROFIT system (300+ konceptów franczyzowych), ARSS (200+ ofert franczyzowych) oraz agencje lokalnego SEO (Semgence, SEOGods i podobne) to **nie są klienci top‑of‑funnel**, ale mogą być kanałem: Velto jako podwykonawca robi strony lokalne dla klientów tych agencji i franczyzodawców. Rozmowa jest jedna, efekt — wielokrotny. To jedyny wątek, w którym „agencje" z briefu mają dziś sens.
 
 ---
 
-### BONUS — kanał partnerski (do uruchomienia równolegle, bez budowy działu sprzedaży)
+## 7. Checklist weryfikacji przed pierwszym kontaktem
 
-**Modele:** doradcy franczyzowi (PROFIT system, ARSS), agencje SEO/Ads bez własnego webdevu (do weryfikacji: Semgence, SEOGods, Sunrise System, Funkymedia, iCEA Group), freelancerzy social/PR/branding.
-
-**Dlaczego:** jedna umowa partnerska = dostęp do dziesiątek ich klientów. To jedyny sposób obsłużenia większej liczby kontraktów bez zatrudniania handlowców.
-
-**Jak wejść:** oferta „white-label webdev dla agencji”: stały cennik B2B (np. 700–1200 zł netto za prostą stronę przy pakiecie 10, 1200–1600 zł jednorazowo), 7-dniowy termin realizacji, faktura na agencję, brak kontaktu z klientem końcowym, możliwość sygnowania prac marką agencji, osobna pula hostingu i SLA.
-
----
-
-## 5. Czego jeszcze nie wiem — lista weryfikacji przed pierwszym kontaktem (TOP 20)
-
-Dla każdego leada wystarczy 1 telefon/e-mail do centrali + 2 minuty w Google Maps:
-
-1. **DepilConcept** — czy franczyzobiorcy mają własne domeny (sprawdź 5 losowych salonów w Google: „DepilConcept <miasto>”)? Czy jest budżet centralny na lokalne SEO?
-2. **Da Grasso** — czy lokalne landingi są w gestii franczyzobiorców czy centrali? Kto odpowiada za świadczenie marketingowe (Orkla)?
-3. **mobileEnglish** — czy każdy franczyzobiorca działa na własnej stronie, czy dostaje stronę od sieci?
-4. **Orient Massage + Thai Organic** — czy marki mają osobne domeny; czy franczyzobiorcy chcą stron pod własnym brandem?
-5. **Depilacja.pl** — czy „technologiczność” marki oznacza własny system WWW (jeżeli tak → ODRZUCONY)?
-6. **Yasumi** — czy sieć ma centralny program stron dla instytutów?
-7. **Freedom Nieruchomości** — czy biura mają własne strony w ramach franczyzy (sprawdź 3 biura)?
-8. **Status Nieruchomości, Grupa Biurowiec, ZNDOM, Nawigator, Avente, Ga-Mi II** — czy planują komunikację online z mieszkańcami i kto podejmuje decyzję.
-9. **Early Stage / Helen Doron / Mała Lingua /** — czy franczyzobiorcom wolno mieć własne strony (część systemów tego zabrania), jak wygląda proces marketingu centralnego.
-10. **PROFIT system / ARSS** — czy prowadzą listę rekomendowanych dostawców i na jakich warunkach.
-11. **Semgence i agencje SEO** — czy ich oferta dziś nie obejmuje tworzenia stron (weryfikacja zakładki „usługi”).
-
-**Pytania, które zawsze zadaj w pierwszym kontakcie (wersja 3 pytań):**
-1. „Kto dziś robi strony dla lokalizacji — franczyzobiorcy sami czy centrala?”
-2. „Czy nowe otwarcie ma już zaplanowaną stronę, czy wdrażacie ją ad hoc?”
-3. „Ile otwarć planujecie w najbliższych 12 miesiącach?” — to pytanie daje Ci wolumen kontraktu.
+| Priorytet | Co sprawdzić | Jak |
+|---|---|---|
+| 🔴 krytyczne | DepilConcept: czy każdy salon ma odrębną stronę (przy salonach jest e-mail i link „Strona www") | kliknąć link przy 5 losowych salonach; jeśli tak → **odrzucić** |
+| 🔴 krytyczne | Trendy Hair Fashion: czy salony mają subdomeny (strona /salony to Google My Maps) | sprawdzić 3 salony, np. `salon.trendyhair.pl`, wizytówka Google |
+| 🔴 krytyczne | Yasumi: czy 138 franczyzobiorców ma własne strony | zapytać w formularzu / sprawdzić Booksy + 5 losowych miast |
+| 🔴 krytyczne | Dentity: które marki mają podstrony per miasto, a które nie (lista marek jest na dentity.pl) | przejść po markach z sekcji „Nasze centra" |
+| 🟠 ważne | LuxVet / Edina: czy przejęte lecznice zachowują własne strony, jaki mają standard | wejść na 5 stron lecznic z listy grupy |
+| 🟠 ważne | mobileEnglish, Moose, AMAKids, Early Stage, Helen Doron: czy istnieją strony per oddział | sprawdzić po 3 losowe oddziały na markę |
+| 🟠 ważne | Perfect Look Clinic: potwierdzić podstrony /kliniki/<miasto> i aktualną liczbę salonów | strona marki + franchising.pl |
+| 🟡 do odświeżenia danych | Tax Care (dane 2016, 270–300 biur), SPW (2016), Olimp (2020), Freedom (2018), Moose (2023), Haircut Express (30 vs 150), Football Academy (nazwa podmiotu), Gentlemen Barber (19) | źródła branżowe 2025–2026, LinkedIn, strony „Zostań partnerem" |
+| 🟡 uzupełnić | Decydenci tam, gdzie jest „brak danych": Trendy Hair, Haircut Express, Hasten, AMAKids, Early Stage, Helen Doron, Samui Spa, ProfiAuto, KIDS&Co, SOCATOTS, British School, Mała Lingua, Football Academy, grupy dealerskie | LinkedIn + KRS + strona „Franczyza"/„Kontakt" — **wyłącznie przy realnej weryfikacji, bez zgadywania** |
 
 ---
 
-## 6. Podsumowanie liczbowe
+## 8. Podsumowanie liczbowe
 
-| Kategoria | Liczba |
+| Pozycja | Liczba |
 |---|---|
-| Przeanalizowane firmy/modele | ~72 |
-| Leady pokazane (TOP 20 + backup 30) | **50** |
-| Odrzucone — pozycje w tabeli / firmy | 19 pozycji / ~45 firm |
-| Leady A+ (10+) | **15** |
-| Leady A (7–9) | **34** |
-| Leady B (4–6) | **1** (Perfect Look Clinic — ryzyko częściowo pokrytej potrzeby) |
-| Najlepsze 3 segmenty | 1) sieci usługowe franczyzowe, 2) zarządcy nieruchomości, 3) średni deweloperzy (+ bonus: kanał partnerski white-label) |
+| Leadów w pliku CSV (TOP 20 + backup 30) | **50** |
+| Dodatkowo zachowanych „poza profilem" (pozycje 51–63: deweloperzy, zarządcy, kanał partnerski, Olimp) | **13** |
+| Odrzuconych z powodem w tabeli i w CSV | **6** |
+| Leadów ocenionych A+ | **10** (poz. 1–10) |
+| Leadów ocenionych A | **50** |
+| Leadów ocenionych B (warunkowe, z obalonym głównym kątem) | **3** (Galeria Uśmiechu/Uśmiechnij Mi Się, Perfect Look, Olimp — Olimp czeka na weryfikację) |
+| Firm i modeli przeanalizowanych łącznie | **~85** |
+| Wierszy z „brak danych" w kolumnie decydent | **50 z 69** (decydenci to największa luka — do uzupełnienia przy kontakcie) |
+| Nowe leady dodane w wersji 2 | **12** (Dentity, Galeria Uśmiechu, Uśmiechnij Mi Się, LuxVet, Edina Vetcare, Trendy Hair Fashion, Haircut Express, Studio Synergy, Hasten, AMAKids, Samui Spa, KIDS&Co) + 1 wiersz zbiorczy sieci warsztatów |
 
-**Uwaga końcowa:** wszystkie liczby lokalizacji i nazwiska pochodzą ze źródeł publicznych wskazanych w tabelach; tam, gdzie dane są starsze niż 2 lata (Tax Care, SPW, Biesiadowo, Olimp, Moose), oznaczyłem to w tabeli — trzeba je odświeżyć przed kontaktem. Kompletny plik do pracy w arkuszu: `prospecting/velto-leads-2026-09.csv`.
+**Główne wnioski po przebudowie:**
+1. Twój przykład („masaż RELAX Pszczyna Dolny") przekłada się na **cały segment franczyz usług osobistych** — to najprostszy pitch, bo franczyzodawca kupuje widoczność sieci, a nie „stronę".
+2. **Liczba lokalizacji bez luki lokalnej nic nie daje** — DepilConcept miało 14 pkt w wersji 1, ma 12 po uczciwym oznaczeniu „przy każdym salonie jest link do strony". Najpierw weryfikacja, potem kontakt.
+3. Największe wolumeny stron (do 850 lokalizacji) są w **edukacji dla dzieci** — tam warto wejść jednym regionem pilotażowo.
+4. Deweloperzy, zarządcy wspólnot i dealerzy **nie są klientem tego produktu** — zostają w pliku jako osobne wątki, żeby nie zaśmiecać TOP 20.
+5. Wszędzie, gdzie nie ma dowodu, zostaje 🔶 DO WERYFIKACJI — zgodnie z Twoją zasadą „nie zakładać faktów".
+
+---
+
+## 9. Źródła (wykorzystane w tej wersji)
+
+- depilconcept.pl/franczyza/ — 122 salony w PL, 20 w przygotowaniu, ~100 franczyzobiorców (dane VI.2025); depilconcept.pl — przy salonach własne e-maile i link „Strona www".
+- franchising.pl/artykul/12763 + 13273 — Yasumi 148 salonów (10 własnych + 138 franczyzowych), Depilacja.pl ~62 salony (54 własne + 8 franczyzowych), grupa „ponad 200 salonów" (Damian Kubik); Orient Massage/Thai Organic 32 salony, Martyna Buchalska.
+- yasumi.pl/franczyza/ — nowe otwarcia 2026 (Warszawa Żoliborz, targi franczyzy), lista poszukiwanych lokalizacji.
+- franchising.pl/artykul/13596 (VIII.2025) — Early Stage: 850+ szkół franczyzowych, 147 franczyzobiorców.
+- amakids.pl/franczyza-amakids — 125 partnerów, 387 oddziałów w PL.
+- trendyhair.pl + trendyhair.pl/salony/ — ~70 salonów (60+ franczyzowych), lista salonów wyłącznie jako osadzona mapa Google My Maps.
+- franchising.pl/franczyza/1486 (Haircut Express) i artykul/13375 (XII.2024) — 30 salonów, deklaracje 150 salonów w 4 krajach.
+- dentity.pl + dentonet.pl (23.09.2025) — 122 gabinety w 22 centrach, 19 miast, 7 województw; model marek regionalnych z własnymi stronami; cytat Grzegorza Struzika (CEO).
+- rp.pl + wprost.pl (2021) — Edina Vetcare: kilkanaście placówek, cel 200+ (TDJ Equity); forbes.pl — Aleksandra Gutkowska.
+- vetkompleksowo.pl (09.2023) — LuxVet: 8 przychodni, cel 150–200 placówek, 100–150 mln €.
+- samui-spa.pl/franczyza (XI.2025) — 10 salonów własnych + 2 franczyzowe, własna szkoła masażu.
+- studiosynergy.pl + franczyzainfo.pl — sieć butikowych studiów EMS od 2015, landingi per miasto dla kandydatów franczyzowych.
+- franczyzawpolsce.pl (In.Time) — franczyza@intime.pl, 780 560 537, Kacper Orłowski.
+- hasten.pl (03.2026) — 14 lokalizacji w Warszawie i Legionowie, 260+ grup.
+- franchising.pl/artykul/13687 — Perfect Look Clinic: 13 własnych + 67 franczyzowych + 6 w przygotowaniu.
+- fizjoacademy.pl + franchising.pl (Fizjoacademy) — 4 gabinety własne, 1 franczyza (Pruszków, 12.03.2026), 100+ placówek w programie mentoringowym.
+- fleet.com.pl + profiauto.pl — ProfiAuto Serwis 3500 warsztatów (+16% r/r), Q Service ~600, Compet 518, S-Plus 700+.
+- kids-co.pl — 35 placówek.
+- franczyzawpolsce.pl (VI.2024) — ok. 1300 sieci franczyzowych / 83,5 tys. placówek w PL (kontekst rynkowy).
+- Źródła z wersji 1 (Da Grasso, Biesiadowo, Studio Figura, Kodano, GO4Robot, Delante, zarządcy, deweloperzy) — bez zmian, wymienione w tabeli odrzuconych.
+
+*Metoda: filtr lokalnej intencji → weryfikacja istniejącego rozwiązania stron lokalnych → scoring → wybór TOP 20. Żadna firma nie trafiła do TOP na podstawie samego faktu bycia franczyzą.*
